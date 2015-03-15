@@ -99,6 +99,6 @@ if count(g:bundle_groups, 'colorscheme')
   Plugin 'sjl/badwolf'
   Plugin 'chriskempson/base16-vim'
 endif
-
+  Bundle 'takac/vim-spotifysearch'
 " automatically load filetype plugins
 filetype plugin indent on

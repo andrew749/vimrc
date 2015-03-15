@@ -131,12 +131,6 @@
 " less
   nmap <Leader>css :w <BAR> !lessc % > %:t:r.css<CR><space>
 
-" rainbow parentheses
-  au VimEnter * RainbowParenthesesToggle
-  au Syntax * RainbowParenthesesLoadRound
-  au Syntax * RainbowParenthesesLoadSquare
-  au Syntax * RainbowParenthesesLoadBraces
-
 " signify
   let g:signify_sign_overwrite = 1
   let g:signify_sign_add = '+'

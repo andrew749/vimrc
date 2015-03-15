@@ -1,0 +1,691 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+a	/home/andrew/CS137/CSStudy/vector2.c	/^int *a;$/;"	m	language:C++	struct:vector	file:
+a	/home/andrew/CS137/CSStudy/vector4.h	/^int *a;$/;"	m	language:C++	struct:vector
+add	/home/andrew/CS138/dictionary.cc	/^void add(Dictionary &d, string key,string value ){$/;"	f	language:C++
+addBack	/home/andrew/CS138/Assignment3/a3p1.cc	/^void addBack(Stew & s,string val){$/;"	f	language:C++
+addBack	/home/andrew/CS138/Assignment3/a3p1q3.cc	/^void addBack(Stew & s,string val){$/;"	f	language:C++
+addElement	/home/andrew/CS137/CSStudy/vector.c	/^void addElement(struct vector *list, int value)$/;"	f	language:C++
+addElement	/home/andrew/CS137/CSStudy/vector.h	/^void addElement(struct vector *list,int value);$/;"	p	language:C++
+addFront	/home/andrew/CS138/Assignment3/a3p1.cc	/^void addFront(Stew& s, string value){$/;"	f	language:C++
+addFront	/home/andrew/CS138/Assignment3/a3p1q3.cc	/^void addFront(Stew& s, string value){$/;"	f	language:C++
+additem	/home/andrew/CS137/CSStudy/linkedlist.c	/^void additem(int location,int  value,struct list *l){$/;"	f	language:C++
+additem	/home/andrew/CS137/CSStudy/linkedlist.h	/^void additem(int location, int value,struct list *list);$/;"	p	language:C++
+addMusic	/home/andrew/Projects/socialtunes/app.js	/^var addMusic = function(err, musicfile){$/;"	f	language:JavaScript
+addSheep	/home/andrew/CS138/Assignment5/a5.cc	/^    virtual void addSheep(string name);$/;"	p	language:C++	class:Flock	file:
+addSheep	/home/andrew/CS138/Assignment5/a5.cc	/^void Flock::addSheep(string name){$/;"	f	language:C++	class:Flock
+addSource	/home/andrew/Projects/muzik-webapp/static/js/content.js	/^function addSource(path){$/;"	f	language:JavaScript
+addSpaces	/home/andrew/CS138/Assignment1/a1q4.cc	/^void addSpaces(int numberOfSpaces, string & addTo);$/;"	p	language:C++	file:
+addSpaces	/home/andrew/CS138/Assignment1/a1q4.cc	/^void addSpaces(int numberOfSpaces, string & addTo){$/;"	f	language:C++
+addSpaces	/home/andrew/CS138/Assignment1/a1q5.cc	/^void addSpaces(int numberOfSpaces, string & addTo);$/;"	p	language:C++	file:
+addSpaces	/home/andrew/CS138/Assignment1/a1q5.cc	/^void addSpaces(int numberOfSpaces, string & addTo){$/;"	f	language:C++
+addSpaces	/home/andrew/CS138/Assignment2/a2p1.cc	/^void addSpaces(int numberOfSpaces, string & addTo);$/;"	p	language:C++	file:
+addSpaces	/home/andrew/CS138/Assignment2/a2p1.cc	/^void addSpaces(int numberOfSpaces, string & addTo){$/;"	f	language:C++
+addToSongList	/home/andrew/Projects/muzik-webapp/user.py	/^    def addToSongList(self, song):$/;"	m	language:Python	class:User
+addURL	/home/andrew/Projects/muzik-webapp/Song.py	/^    def addURL(self,url):$/;"	m	language:Python	class:Song
+addValue	/home/andrew/CS137/CSStudy/vector3.c	/^void addValue(struct vector *a, int value){$/;"	f	language:C++
+addValue	/home/andrew/CS137/CSStudy/vector3.h	/^void addValue(struct vector *a, int value);$/;"	p	language:C++
+addValue	/home/andrew/CS137/CSStudy/vector4.c	/^void addValue(struct vector *l,int value){$/;"	f	language:C++
+addValue	/home/andrew/CS137/CSStudy/vector4.h	/^void addValue(struct vector *l,int value);$/;"	p	language:C++
+age	/home/andrew/CS138/lectures/inheritance.cc	/^    const int age;$/;"	m	language:C++	class:Child	file:
+ajax	/home/andrew/Projects/socialtunes/app/js/admin.js	/^function ajax(method, url, callback) {$/;"	f	language:JavaScript
+allSongsToJson	/home/andrew/Projects/muzik-webapp/Song.py	/^def allSongsToJson(songs):$/;"	f	language:Python
+Animal	/home/andrew/CS138/Assignment5/a5.cc	/^    Animal (string name):name(name){}$/;"	f	language:C++	class:Animal
+Animal	/home/andrew/CS138/Assignment5/a5.cc	/^class Animal{$/;"	c	language:C++	file:
+app	/home/andrew/Projects/muzik-webapp/app.py	/^app=Flask(__name__)$/;"	v	language:Python
+app	/home/andrew/Projects/socialtunes/app.js	/^var app = express();$/;"	v	language:JavaScript
+append	/home/andrew/CS138/Assignment2/a2p2.cc	/^Node *append(Node *p1,Node *p2){$/;"	f	language:C++
+append	/home/andrew/CS138/Assignment2/a2p2q1.cc	/^Node *append(Node *p1,Node *p2){$/;"	f	language:C++
+append	/home/andrew/CS138/Assignment2/a2p2q6.cc	/^Node *append(Node *p1,Node *p2){$/;"	f	language:C++
+arrayshrink	/home/andrew/CS137/CSStudy/partyinvitation.c	/^void arrayshrink(int *a,int n)$/;"	f	language:C++
+audioPlayer	/home/andrew/Projects/muzik-webapp/static/js/content.js	/^var audioPlayer=0;$/;"	v	language:JavaScript
+AudioPlayer	/home/andrew/Projects/socialtunes/app/js/admin.js	/^function AudioPlayer() {$/;"	c	language:JavaScript
+b	/home/andrew/CS138/lectures/inheritance.cc	/^    Balloon b;$/;"	m	language:C++	class:Child	file:
+Balloon	/home/andrew/CS138/lectures/inheritance.cc	/^    Balloon(string color);$/;"	p	language:C++	class:Balloon	file:
+Balloon	/home/andrew/CS138/lectures/inheritance.cc	/^Balloon::Balloon(string color): color(color){}$/;"	f	language:C++	class:Balloon
+Balloon	/home/andrew/CS138/lectures/inheritance.cc	/^class Balloon{$/;"	c	language:C++	file:
+Balloon	/home/andrew/CS138/lectures/lectureoodemoclass.cc	/^    Balloon();$/;"	p	language:C++	class:Balloon	file:
+Balloon	/home/andrew/CS138/lectures/lectureoodemoclass.cc	/^    Balloon(string colour);$/;"	p	language:C++	class:Balloon	file:
+Balloon	/home/andrew/CS138/lectures/lectureoodemoclass.cc	/^Balloon::Balloon(){$/;"	f	language:C++	class:Balloon
+Balloon	/home/andrew/CS138/lectures/lectureoodemoclass.cc	/^Balloon::Balloon(string colour){$/;"	f	language:C++	class:Balloon
+Balloon	/home/andrew/CS138/lectures/lectureoodemoclass.cc	/^class Balloon{$/;"	c	language:C++	file:
+bisection	/home/andrew/CS137/CSStudy/bisection.c	/^double bisection(double  a, double b, int iterations){$/;"	f	language:C++
+bisection	/home/andrew/CS137/CSStudy/bisection2.c	/^double bisection(double (*g)(double),double a, double b,int iterations)$/;"	f	language:C++
+bit	/home/andrew/.bashrc	/^    bit() {$/;"	f	language:Sh
+BST	/home/andrew/CS138/Assignment4/a4p2.cc	/^typedef struct BST_Node * BST;$/;"	t	language:C++	typeref:struct:BST_Node	file:
+BST	/home/andrew/CS138/Assignment4/a4p3.cc	/^typedef SBLnode* BST;$/;"	t	language:C++	file:
+BST	/home/andrew/CS138/bst.cc	/^struct BST{$/;"	s	language:C++	file:
+BST	/home/andrew/CS138/bst.cc	/^typedef struct BST BST;$/;"	t	language:C++	typeref:struct:BST	file:
+BSTinit	/home/andrew/CS138/bst.cc	/^void BSTinit(BST & tree){$/;"	f	language:C++
+BSTNode	/home/andrew/CS138/lectures/binarysearchtree.cc	/^struct BSTNode{$/;"	s	language:C++	file:
+BST_del	/home/andrew/CS138/Assignment4/a4p2.cc	/^void BST_del(BST&root,BST& parent,string val){$/;"	f	language:C++
+BST_del	/home/andrew/CS138/Assignment4/a4p3.cc	/^void BST_del(BST&root,BST& parent,string val){$/;"	f	language:C++
+BST_delete	/home/andrew/CS138/Assignment4/a4p2.cc	/^void BST_delete(string val,BST&root){$/;"	f	language:C++
+BST_delete	/home/andrew/CS138/Assignment4/a4p3.cc	/^void BST_delete(string val,BST&root){$/;"	f	language:C++
+BST_has	/home/andrew/CS138/Assignment4/a4p2.cc	/^bool BST_has(string val, const BST & root){$/;"	f	language:C++
+BST_has	/home/andrew/CS138/Assignment4/a4p3.cc	/^bool BST_has(string val, const BST & root){$/;"	f	language:C++
+BST_init	/home/andrew/CS138/Assignment4/a4p2.cc	/^void BST_init(BST& root){$/;"	f	language:C++
+BST_init	/home/andrew/CS138/Assignment4/a4p3.cc	/^void BST_init(BST& root){$/;"	f	language:C++
+BST_insert	/home/andrew/CS138/Assignment4/a4p2.cc	/^void  BST_insert(string val,BST& root){$/;"	f	language:C++
+BST_insert	/home/andrew/CS138/Assignment4/a4p3.cc	/^SBLnode*  BST_insert(string val,BST& root){$/;"	f	language:C++
+BST_isEmpty	/home/andrew/CS138/Assignment4/a4p2.cc	/^bool BST_isEmpty(const BST& root){$/;"	f	language:C++
+BST_isEmpty	/home/andrew/CS138/Assignment4/a4p3.cc	/^bool BST_isEmpty(const BST& root){$/;"	f	language:C++
+BST_Node	/home/andrew/CS138/Assignment4/a4p2.cc	/^struct BST_Node{$/;"	s	language:C++	file:
+BST_print	/home/andrew/CS138/Assignment4/a4p2.cc	/^void BST_print(const BST& root){$/;"	f	language:C++
+BST_print	/home/andrew/CS138/Assignment4/a4p3.cc	/^void BST_print(const BST& root){$/;"	f	language:C++
+calc	/home/andrew/.bashrc	/^    calc() {$/;"	f	language:Sh
+cd	/home/andrew/.bashrc	/^    function cd() { builtin cd -- "$@" && { [ "$PS1" = "" ] || ls -hrt --color; }; }$/;"	f	language:Sh
+Child	/home/andrew/CS138/lectures/inheritance.cc	/^    Child();$/;"	p	language:C++	class:Child	file:
+Child	/home/andrew/CS138/lectures/inheritance.cc	/^    Child(string name, int age);$/;"	p	language:C++	class:Child	file:
+Child	/home/andrew/CS138/lectures/inheritance.cc	/^    Child(string name, int age, Balloon b);$/;"	p	language:C++	class:Child	file:
+Child	/home/andrew/CS138/lectures/inheritance.cc	/^class Child{$/;"	c	language:C++	file:
+chunkSize	/home/andrew/CS138/Assignment3/a3p2.cc	/^  int chunkSize;$/;"	m	language:C++	struct:Stack	file:
+cipher	/home/andrew/CS137/CSStudy/cipher.c	/^char *cipher(char *original){$/;"	f	language:C++
+color	/home/andrew/CS138/lectures/inheritance.cc	/^    string color;$/;"	m	language:C++	class:Balloon	file:
+colour	/home/andrew/CS138/lectures/lectureoodemoclass.cc	/^    string colour;$/;"	m	language:C++	class:Balloon	file:
+compare	/home/andrew/CS137/CSStudy/binarysearchlibrary.c	/^int compare (const void *a, const void *b){$/;"	f	language:C++
+compare	/home/andrew/CS137/CSStudy/qsortusage.c	/^int compare(const void *a, const void *b)$/;"	f	language:C++
+compare	/home/andrew/CS137/CSStudy/standardsort.c	/^int compare(const void * a,const void * b)$/;"	f	language:C++
+compress	/home/andrew/.bashrc	/^    compress() {$/;"	f	language:Sh
+contentMain	/home/andrew/Projects/muzik-webapp/static/js/content.js	/^var contentMain;$/;"	v	language:JavaScript
+convert	/home/andrew/CS137/CSStudy/baseconverstion.c	/^int convert(int number, int base){$/;"	f	language:C++
+convert	/home/andrew/CS137/CSStudy/binarytodecimal.c	/^int convert(int number){$/;"	f	language:C++
+convert	/home/andrew/CS137/CSStudy/decimaltobinary.c	/^void convert(int number, int base)$/;"	f	language:C++
+count	/home/andrew/CS137/CSStudy/numberoftimescharacterappears.c	/^int count(char *s,int n,char character){$/;"	f	language:C++
+count	/home/andrew/CS138/Assignment4/a4p3.cc	/^  int count;$/;"	m	language:C++	struct:SBL	file:
+counter	/home/andrew/Projects/Pluto/plugins/superiorsibling.js	/^      "counter": 0$/;"	p	language:JavaScript	class:module.exports.data
+createlist	/home/andrew/CS137/CSStudy/linkedlist.c	/^struct list *createlist(){$/;"	f	language:C++
+createlist	/home/andrew/CS137/CSStudy/linkedlist.h	/^struct list *createlist();$/;"	p	language:C++
+createNewNodeChunk	/home/andrew/CS138/Assignment3/a3p2.cc	/^NodeChunk* createNewNodeChunk (int N) {$/;"	f	language:C++
+createVector	/home/andrew/CS137/CSStudy/vector.c	/^struct vector *createVector(){$/;"	f	language:C++
+createVector	/home/andrew/CS137/CSStudy/vector.h	/^struct vector *createVector();$/;"	p	language:C++
+createVector	/home/andrew/CS137/CSStudy/vector3.c	/^struct vector *createVector(){$/;"	f	language:C++
+createVector	/home/andrew/CS137/CSStudy/vector3.h	/^struct vector *createVector();$/;"	p	language:C++
+createVector	/home/andrew/CS137/CSStudy/vector4.c	/^struct vector *createVector(){$/;"	f	language:C++
+createVector	/home/andrew/CS137/CSStudy/vector4.h	/^struct vector *createVector();$/;"	p	language:C++
+currentNumBalloons	/home/andrew/CS138/lectures/inheritance.cc	/^    static int currentNumBalloons;$/;"	m	language:C++	class:Child	file:
+custom	/home/andrew/CS138/midtermreview/testwithreference.cc	/^struct custom{$/;"	s	language:C++	file:
+d	/home/andrew/CS138/midtermreview/a.cc	/^void d(int *a){$/;"	f	language:C++
+db	/home/andrew/Projects/socialtunes/app.js	/^var db = require(".\/modules\/DatabaseManager.js");$/;"	v	language:JavaScript
+decipher	/home/andrew/CS137/CSStudy/cipher.c	/^char *decipher(char *original){$/;"	f	language:C++
+deleteitem	/home/andrew/CS137/CSStudy/linkedlist.h	/^void deleteitem(struct list *l,int index);$/;"	p	language:C++
+deleteUrl	/home/andrew/Projects/muzik-webapp/Song.py	/^    def deleteUrl(self, position):$/;"	m	language:Python	class:Song
+deleteVector	/home/andrew/CS137/CSStudy/vector.c	/^void deleteVector(struct vector *list){$/;"	f	language:C++
+deleteVector	/home/andrew/CS137/CSStudy/vector.h	/^void deleteVector(struct vector *list);$/;"	p	language:C++
+deleteVector	/home/andrew/CS137/CSStudy/vector3.c	/^void  deleteVector(struct vector *a)$/;"	f	language:C++
+deleteVector	/home/andrew/CS137/CSStudy/vector3.h	/^void deleteVector(struct vector *a);$/;"	p	language:C++
+deleteVector	/home/andrew/CS137/CSStudy/vector4.c	/^void deleteVector(struct vector *l){$/;"	f	language:C++
+deleteVector	/home/andrew/CS137/CSStudy/vector4.h	/^void deleteVector(struct vector *l);$/;"	p	language:C++
+DictionaryNode	/home/andrew/CS138/dictionary.cc	/^struct DictionaryNode{$/;"	s	language:C++	file:
+dirsize	/home/andrew/.bashrc	/^      dirsize () {$/;"	f	language:Sh
+disable	/home/andrew/.bashrc	/^      disable() {$/;"	f	language:Sh
+distance	/home/andrew/CS137/CSStudy/lengthbetweencoordinates.c	/^double distance(int x,int y, int z,int x2,int y2,int z2){$/;"	f	language:C++
+Dog	/home/andrew/CS138/Assignment5/a5.cc	/^    Dog(string dogName):Animal(dogName){}$/;"	f	language:C++	class:Dog
+dog	/home/andrew/CS138/Assignment5/a5.cc	/^    Dog* dog;$/;"	m	language:C++	class:Flock	file:
+Dog	/home/andrew/CS138/Assignment5/a5.cc	/^class Dog:public Animal{$/;"	c	language:C++	file:
+downloadsnllink	/home/andrew/Projects/muzik-webapp/app.py	/^downloadsnllink="http:\/\/www.downloads.nl\/results\/mp3\/1\/";#add string of song to end$/;"	v	language:Python
+elements	/home/andrew/CS137/CSStudy/vector.h	/^  int *elements;$/;"	m	language:C++	struct:vector
+enable	/home/andrew/.bashrc	/^      enable() {$/;"	f	language:Sh
+enter	/home/andrew/CS138/midtermreview/queue.cc	/^void enter(Q & q, int val){$/;"	f	language:C++
+enterPQ	/home/andrew/CS138/Assignment4/a4p1.cc	/^void enterPQ (PQ& pq, string val, int priority) {$/;"	f	language:C++
+entry	/home/andrew/Projects/muzik-webapp/static/js/content.js	/^function entry(title, url){$/;"	c	language:JavaScript
+etree	/home/andrew/Projects/muzik-webapp/app.py	/^from lxml import etree$/;"	i	language:Python
+etree	/home/andrew/Projects/muzik-webapp/test.py	/^from lxml import etree$/;"	i	language:Python
+express	/home/andrew/Projects/socialtunes/app.js	/^var express = require('express');$/;"	v	language:JavaScript
+extract	/home/andrew/.bashrc	/^    extract() {$/;"	f	language:Sh
+f	/home/andrew/CS137/CSStudy/bisection.c	/^double f(double x){$/;"	f	language:C++
+f	/home/andrew/CS137/CSStudy/bisection2.c	/^double f(double a)$/;"	f	language:C++
+f	/home/andrew/CS137/fibonacci.c	/^int f(int n){$/;"	f	language:C++
+factorial	/home/andrew/CS137/CSStudy/factorial.c	/^int factorial(int number){$/;"	f	language:C++
+factorialr	/home/andrew/CS137/CSStudy/factorial.c	/^int factorialr(int number){$/;"	f	language:C++
+farad	/home/andrew/.bashrc	/^      farad () {$/;"	f	language:Sh
+fared	/home/andrew/.bashrc	/^      fared() {$/;"	f	language:Sh
+fe	/home/andrew/.bashrc	/^      fe() { find . -type f -iname '*'$1'*' -exec "${2:-file}" {} \\;  ; }$/;"	f	language:Sh
+ff	/home/andrew/.bashrc	/^      ff() { find . -type f -iname '*'$*'*' -ls ; }$/;"	f	language:Sh
+fibonacci	/home/andrew/CS137/CSStudy/fibonacci.c	/^int fibonacci(int n){$/;"	f	language:C++
+fibonacci	/home/andrew/CS137/CSStudy/fibonacci2.c	/^int fibonacci(int n){$/;"	f	language:C++
+fibonacci	/home/andrew/CS137/CSStudy/fibonacci3.c	/^int fibonacci(int number){$/;"	f	language:C++
+fibonaccitofourmill	/home/andrew/CS137/CSStudy/fibonaccisum.c	/^int *fibonaccitofourmill(){$/;"	f	language:C++
+first	/home/andrew/CS138/Assignment3/a3p1.cc	/^  Node *first;$/;"	m	language:C++	struct:Stew	file:
+first	/home/andrew/CS138/Assignment3/a3p1q3.cc	/^  Node *first;$/;"	m	language:C++	struct:Stew	file:
+first	/home/andrew/CS138/Assignment4/a4p1.cc	/^  Qnode * first;$/;"	m	language:C++	struct:Queue	file:
+first	/home/andrew/CS138/Assignment4/a4p3.cc	/^  SBLnode *first,*last;$/;"	m	language:C++	struct:Queue	file:
+first	/home/andrew/CS138/midtermreview/queue.cc	/^  Node* first,*last;$/;"	m	language:C++	struct:Queue	file:
+firstChunk	/home/andrew/CS138/Assignment3/a3p2.cc	/^  NodeChunk* firstChunk;$/;"	m	language:C++	struct:Stack	file:
+firstPQ	/home/andrew/CS138/Assignment4/a4p1.cc	/^string firstPQ (const PQ& pq) {$/;"	f	language:C++
+Flask	/home/andrew/Projects/muzik-webapp/app.py	/^from flask import Flask, url_for, request, render_template$/;"	i	language:Python
+Flock	/home/andrew/CS138/Assignment5/a5.cc	/^    Flock(string dogName):dog(new Dog(dogName)){}$/;"	f	language:C++	class:Flock
+Flock	/home/andrew/CS138/Assignment5/a5.cc	/^class Flock{$/;"	c	language:C++	file:
+fs	/home/andrew/Projects/socialtunes/app.js	/^var fs = require('fs');$/;"	v	language:JavaScript
+fullLine	/home/andrew/CS138/Assignment1/a1q3.cc	/^vector<string> fullLine(vector<string>::const_iterator & it,vector<string> & vec,int numberOfCharactersPerLine);$/;"	p	language:C++	file:
+fullLine	/home/andrew/CS138/Assignment1/a1q3.cc	/^vector<string> fullLine(vector<string>::const_iterator & it,vector<string> & vec,int numberOfCharactersPerLine){$/;"	f	language:C++
+fullLine	/home/andrew/CS138/Assignment1/a1q4.cc	/^vector<string> fullLine(vector<string>::const_iterator & it,vector<string> & vec,int numberOfCharactersPerLine);$/;"	p	language:C++	file:
+fullLine	/home/andrew/CS138/Assignment1/a1q4.cc	/^vector<string> fullLine(vector<string>::const_iterator & it,vector<string> & vec,int numberOfCharactersPerLine){$/;"	f	language:C++
+fullLine	/home/andrew/CS138/Assignment1/a1q5.cc	/^vector<string> fullLine(vector<string>::const_iterator & it,vector<string> & vec,int numberOfCharactersPerLine);$/;"	p	language:C++	file:
+fullLine	/home/andrew/CS138/Assignment1/a1q5.cc	/^vector<string> fullLine(vector<string>::const_iterator & it,vector<string> & vec,int numberOfCharactersPerLine){$/;"	f	language:C++
+fullLine	/home/andrew/CS138/Assignment2/a2p1.cc	/^vector<string> fullLine(vector<string>::const_iterator & it,vector<string> & vec,int numberOfCharactersPerLine);$/;"	p	language:C++	file:
+fullLine	/home/andrew/CS138/Assignment2/a2p1.cc	/^vector<string> fullLine(vector<string>::const_iterator & it,vector<string> & vec,int numberOfCharactersPerLine){$/;"	f	language:C++
+g:bundle_groups	/home/andrew/.vim/bundles.vim	/^  let g:bundle_groups=['general', 'devel', 'languages', 'colorscheme']$/;"	v	language:Vim
+gcd	/home/andrew/CS137/CSStudy/gcd2.c	/^int gcd(int a,int b)$/;"	f	language:C++
+gcd	/home/andrew/CS137/CSStudy/gcd3.c	/^int gcd(int a, int b){$/;"	f	language:C++
+gcd	/home/andrew/CS137/CSStudy/lcm.c	/^int gcd(int a,int b)$/;"	f	language:C++
+getElement	/home/andrew/CS137/CSStudy/vector.c	/^int getElement(struct vector *list, int index){$/;"	f	language:C++
+getElement	/home/andrew/CS137/CSStudy/vector.h	/^int getElement(struct vector *list,int index);$/;"	p	language:C++
+getitem	/home/andrew/CS137/CSStudy/linkedlist.c	/^int getitem(struct list *l,int index){$/;"	f	language:C++
+getitem	/home/andrew/CS137/CSStudy/linkedlist.h	/^int getitem(struct list *l,int index);$/;"	p	language:C++
+getName	/home/andrew/CS138/Assignment5/a5.cc	/^    virtual string getName () const{return name;}$/;"	f	language:C++	class:Animal
+getName	/home/andrew/Projects/muzik-webapp/user.py	/^    def getName(self):$/;"	m	language:Python	class:User
+getNumberOfCharacters	/home/andrew/CS138/Assignment1/a1q3.cc	/^int getNumberOfCharacters(vector<string> content){$/;"	f	language:C++
+getNumberOfCharacters	/home/andrew/CS138/Assignment1/a1q4.cc	/^int getNumberOfCharacters(vector<string> );$/;"	p	language:C++	file:
+getNumberOfCharacters	/home/andrew/CS138/Assignment1/a1q4.cc	/^int getNumberOfCharacters(vector<string> content){$/;"	f	language:C++
+getNumberOfCharacters	/home/andrew/CS138/Assignment1/a1q5.cc	/^int getNumberOfCharacters(vector<string> );$/;"	p	language:C++	file:
+getNumberOfCharacters	/home/andrew/CS138/Assignment1/a1q5.cc	/^int getNumberOfCharacters(vector<string> content){$/;"	f	language:C++
+getNumberOfCharacters	/home/andrew/CS138/Assignment2/a2p1.cc	/^int getNumberOfCharacters(vector<string> );$/;"	p	language:C++	file:
+getNumberOfCharacters	/home/andrew/CS138/Assignment2/a2p1.cc	/^int getNumberOfCharacters(vector<string> content){$/;"	f	language:C++
+getSongList	/home/andrew/Projects/muzik-webapp/user.py	/^    def getSongList(self):$/;"	m	language:Python	class:User
+getSongs	/home/andrew/Projects/muzik-webapp/static/js/content.js	/^function getSongs(songName){$/;"	f	language:JavaScript
+getTop	/home/andrew/Projects/muzik-webapp/app.py	/^def getTop():$/;"	f	language:Python
+getTopHits	/home/andrew/Projects/muzik-webapp/app.py	/^def getTopHits():$/;"	f	language:Python
+getValue	/home/andrew/CS137/CSStudy/vector3.c	/^int getValue(struct vector *a, int index)$/;"	f	language:C++
+getValue	/home/andrew/CS137/CSStudy/vector3.h	/^int getValue(struct vector *a,int index);$/;"	p	language:C++
+getValue	/home/andrew/CS137/CSStudy/vector4.c	/^int getValue(struct vector *l,int index){$/;"	f	language:C++
+getValue	/home/andrew/CS137/CSStudy/vector4.h	/^int getValue(struct vector *l,int index);$/;"	p	language:C++
+getVerifiedLinks	/home/andrew/Projects/muzik-webapp/app.py	/^def getVerifiedLinks(songName):$/;"	f	language:Python
+get_prompt_symbol	/home/andrew/.bashrc	/^    get_prompt_symbol() {$/;"	f	language:Sh
+goBack	/home/andrew/Projects/muzik-webapp/static/js/content.js	/^function goBack(){$/;"	f	language:JavaScript
+handleSearch	/home/andrew/Projects/muzik-webapp/static/js/content.js	/^function handleSearch(e){$/;"	f	language:JavaScript
+handleSearchClick	/home/andrew/Projects/muzik-webapp/static/js/content.js	/^function handleSearchClick(e){$/;"	f	language:JavaScript
+has	/home/andrew/CS138/lectures/binarysearchtree.cc	/^bool has(const BSTNode & root,string val){$/;"	f	language:C++
+headelement	/home/andrew/CS137/CSStudy/linkedlist.h	/^struct listitem *headelement;$/;"	m	language:C++	struct:list	typeref:struct:list::listitem
+header	/home/andrew/Projects/muzik-webapp/app.py	/^header = {'user-agent': 'Mozilla\/5.0 (Macintosh; Intel Mac OS X 10.9; rv:32.0) Gecko\/20100101 Firefox\/32.0',}$/;"	v	language:Python
+header	/home/andrew/Projects/muzik-webapp/test.py	/^header = {'user-agent': 'Mozilla\/5.0 (X11; Linux x86_64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/39.0.2171.99 Safari\/537.36','accept':'text\/html,application\/xhtml+xml,application\/xml',}$/;"	v	language:Python
+helloAbishek	/home/andrew/CS138/fileio.cc	/^namespace helloAbishek{$/;"	n	language:C++	file:
+horner	/home/andrew/CS137/CSStudy/horner.c	/^int horner(int x,int *a,int n){$/;"	f	language:C++
+horner	/home/andrew/CS137/CSStudy/horner2.c	/^int horner(int *a, int n,int x)$/;"	f	language:C++
+html	/home/andrew/Projects/muzik-webapp/app.py	/^from lxml import html$/;"	i	language:Python
+html	/home/andrew/Projects/muzik-webapp/test.py	/^from lxml import html$/;"	i	language:Python
+http	/home/andrew/Projects/socialtunes/app.js	/^var http = require('http').Server(app);$/;"	v	language:JavaScript
+id3	/home/andrew/Projects/socialtunes/app.js	/^var id3 = require('id3js');$/;"	v	language:JavaScript
+initPQ	/home/andrew/CS138/Assignment4/a4p1.cc	/^void initPQ(PQ& pq){$/;"	f	language:C++
+initQ	/home/andrew/CS138/midtermreview/queue.cc	/^void initQ(Q& q){$/;"	f	language:C++
+initStack	/home/andrew/CS138/Assignment3/a3p2.cc	/^void initStack (int chunkSize, Stack& s) {$/;"	f	language:C++
+initStack	/home/andrew/CS138/midtermreview/stack.cc	/^void initStack(Stack &s){$/;"	f	language:C++
+initStew	/home/andrew/CS138/Assignment3/a3p1.cc	/^void initStew(Stew &q){$/;"	f	language:C++
+initStew	/home/andrew/CS138/Assignment3/a3p1q3.cc	/^void initStew(Stew &q){$/;"	f	language:C++
+insert	/home/andrew/CS138/bst.cc	/^void insert(BST& tree,string value){$/;"	f	language:C++
+insert	/home/andrew/CS138/lectures/binarysearchtree.cc	/^void  insert( BSTNode*  root,string val){$/;"	f	language:C++
+insert	/home/andrew/CS138/lectures/sequence.cc	/^void insert(Seq& s, );$/;"	p	language:C++	file:
+insert	/home/andrew/CS138/SortedList.cc	/^void insert(SortedList& first, string val)$/;"	f	language:C++
+insertQ	/home/andrew/CS138/Assignment4/a4p3.cc	/^void insertQ(Queue & q,SBLnode * name){$/;"	f	language:C++
+io	/home/andrew/Projects/socialtunes/app.js	/^var io = require("socket.io")(http);$/;"	v	language:JavaScript
+isEmpty	/home/andrew/CS138/Assignment3/a3p1.cc	/^bool isEmpty(const Stew& s){$/;"	f	language:C++
+isEmpty	/home/andrew/CS138/Assignment3/a3p1q3.cc	/^bool isEmpty(const Stew& s){$/;"	f	language:C++
+isEmpty	/home/andrew/CS138/Assignment3/a3p2.cc	/^bool isEmpty (const Stack& s) {$/;"	f	language:C++
+isEmpty	/home/andrew/CS138/bst.cc	/^bool isEmpty(const BST tree){$/;"	f	language:C++
+isEmpty	/home/andrew/CS138/lectures/binarysearchtree.cc	/^bool isEmpty(const BSTNode& root){$/;"	f	language:C++
+isEmpty	/home/andrew/CS138/lectures/stackooexample.cc	/^    bool isEmpty()const;$/;"	p	language:C++	class:Stack	file:
+isEmpty	/home/andrew/CS138/lectures/stackooexample.cc	/^bool Stack::isEmpty()const{$/;"	f	language:C++	class:Stack
+isEmpty	/home/andrew/CS138/midtermreview/queue.cc	/^bool isEmpty(Q& q){$/;"	f	language:C++
+isEmpty	/home/andrew/CS138/midtermreview/stack.cc	/^bool isEmpty(Stack & s){$/;"	f	language:C++
+isEmptyPQ	/home/andrew/CS138/Assignment4/a4p1.cc	/^bool isEmptyPQ (const PQ& pq) {$/;"	f	language:C++
+isEmptyQ	/home/andrew/CS138/Assignment4/a4p3.cc	/^bool isEmptyQ(Queue &q){$/;"	f	language:C++
+isPalindrome	/home/andrew/CS137/CSStudy/palindrome.c	/^int isPalindrome(int number)$/;"	f	language:C++
+isPrime	/home/andrew/CS137/CSStudy/isPrime.c	/^int isPrime(double number){$/;"	f	language:C++
+isPrime	/home/andrew/CS137/CSStudy/primefactorization.c	/^int isPrime(double number)$/;"	f	language:C++
+isValid	/home/andrew/CS137/CSStudy/sumof3and5multiples.c	/^int isValid(int number)$/;"	f	language:C++
+isYoutube	/home/andrew/Projects/muzik-webapp/static/js/content.js	/^var isYoutube=false;$/;"	v	language:JavaScript
+items	/home/andrew/Projects/muzik-webapp/test.py	/^items = iter(root.xpath('\/\/entry\/title\/text()',$/;"	v	language:Python
+json	/home/andrew/Projects/muzik-webapp/app.py	/^import json$/;"	i	language:Python
+json	/home/andrew/Projects/muzik-webapp/Song.py	/^import json$/;"	i	language:Python
+json	/home/andrew/Projects/muzik-webapp/test.py	/^import json$/;"	i	language:Python
+key	/home/andrew/CS138/Assignment4/a4p2.cc	/^  string key;$/;"	m	language:C++	struct:BST_Node	file:
+key	/home/andrew/CS138/dictionary.cc	/^  string key;$/;"	m	language:C++	struct:DictionaryNode	file:
+last	/home/andrew/CS138/Assignment3/a3p1.cc	/^  Node *last;$/;"	m	language:C++	struct:Stew	file:
+last	/home/andrew/CS138/Assignment3/a3p1q3.cc	/^  Node *last;$/;"	m	language:C++	struct:Stew	file:
+last	/home/andrew/CS138/Assignment4/a4p1.cc	/^  Qnode * last;$/;"	m	language:C++	struct:Queue	file:
+last	/home/andrew/CS138/Assignment4/a4p3.cc	/^  SBLnode *first,*last;$/;"	m	language:C++	struct:Queue	file:
+last	/home/andrew/CS138/midtermreview/queue.cc	/^  Node* first,*last;$/;"	m	language:C++	struct:Queue	file:
+lcm	/home/andrew/CS137/CSStudy/lcm.c	/^int lcm(int a,int b){$/;"	f	language:C++
+lcm	/home/andrew/CS137/lcm.c	/^int lcm(int a,int b){$/;"	f	language:C++
+lcm	/home/andrew/CS137/lcm.c	/^int lcm(int,int);$/;"	p	language:C++	file:
+leave	/home/andrew/CS138/midtermreview/queue.cc	/^void leave(Q & q){$/;"	f	language:C++
+leaveBack	/home/andrew/CS138/Assignment3/a3p1.cc	/^void leaveBack(Stew &s){$/;"	f	language:C++
+leaveBack	/home/andrew/CS138/Assignment3/a3p1q3.cc	/^void leaveBack(Stew &s){$/;"	f	language:C++
+leaveFront	/home/andrew/CS138/Assignment3/a3p1.cc	/^void leaveFront(Stew & s){$/;"	f	language:C++
+leaveFront	/home/andrew/CS138/Assignment3/a3p1q3.cc	/^void leaveFront(Stew & s){$/;"	f	language:C++
+leavePQ	/home/andrew/CS138/Assignment4/a4p1.cc	/^void leavePQ (PQ& pq) {$/;"	f	language:C++
+left	/home/andrew/CS138/Assignment4/a4p2.cc	/^  BST_Node* left;$/;"	m	language:C++	struct:BST_Node	file:
+left	/home/andrew/CS138/Assignment4/a4p3.cc	/^  SBLnode *left, *right;$/;"	m	language:C++	struct:SBLnode	file:
+left	/home/andrew/CS138/bst.cc	/^  BST* left;$/;"	m	language:C++	struct:BST	file:
+left	/home/andrew/CS138/lectures/binarysearchtree.cc	/^  BSTNode* left;$/;"	m	language:C++	struct:BSTNode	file:
+length	/home/andrew/CS137/CSStudy/linkedlist.h	/^  int length;$/;"	m	language:C++	struct:list
+length	/home/andrew/CS137/CSStudy/vector.h	/^  int length;$/;"	m	language:C++	struct:vector
+length	/home/andrew/CS137/CSStudy/vector2.c	/^int length;$/;"	m	language:C++	struct:vector	file:
+length	/home/andrew/CS137/CSStudy/vector3.h	/^int length;$/;"	m	language:C++	struct:vector
+length	/home/andrew/CS137/CSStudy/vector4.h	/^int length;$/;"	m	language:C++	struct:vector
+list	/home/andrew/CS137/CSStudy/linkedlist.h	/^struct list{$/;"	s	language:C++
+listitem	/home/andrew/CS137/CSStudy/linkedlist.h	/^struct listitem{$/;"	s	language:C++
+lookup	/home/andrew/CS138/dictionary.cc	/^string lookup(Dictionary&d, string key);$/;"	p	language:C++	file:
+lookup	/home/andrew/CS138/SortedList.cc	/^bool lookup(const SortedList& first, string val)$/;"	f	language:C++
+lowercase	/home/andrew/.bashrc	/^      lowercase() {$/;"	f	language:Sh
+lxml	/home/andrew/Projects/muzik-webapp/app.py	/^import lxml$/;"	i	language:Python
+lxml	/home/andrew/Projects/muzik-webapp/test.py	/^import lxml$/;"	i	language:Python
+main	/home/andrew/CS137/CSStudy/asciiiterator.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/baseconverstion.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/binarysearch2.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/binarysearch3.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/binarysearchlibrary.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/binarytodecimal.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/bisection.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/bisection2.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/characterpractice.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/cipher.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/convertnumtoascii.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/decimaltobinary.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/factorial.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/fibonacci.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/fibonacci3.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/fibonaccisum.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/fixedpoint2.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/fixedpointiteration.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/floatingpointaccuracy.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/gcd2.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/gcd3.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/heuristicpractice.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/highestabsolutevalue.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/horner.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/horner2.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/insertionsort2.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/insertionsort3.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/insertionsort4.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/isPrime.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/jellyfish.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/largestproduct.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/lcm.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/lengthbetweencoordinates.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/linearsearch.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/linkedlist.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/mathpractice.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/memoryoperationspractice.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/mergesort2.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/mergesort3.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/mergesort4.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/mergesort5.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/numberoftimescharacterappears.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/palindrome.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/partyinvitation.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/playwitharray.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/primefactorization.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/qsortusage.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/reallocation.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/rev.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/reverse.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/rounding.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/selectionsort2.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/selectionsort3.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/selectionsort4.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/standardsort.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/stepstogoal.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/stringpractice.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/sumof3and5multiples.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/vector.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/vector2.c	/^int main()$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/vector4.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/CSStudy/vectortest.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/fibonacci.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/gcd.c	/^int main(void) {$/;"	f	language:C++
+main	/home/andrew/CS137/lcm.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS137/reverse.c	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/Assignment1/a1q1.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/Assignment1/a1q2.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/Assignment1/a1q3.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/Assignment1/a1q4.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/Assignment1/a1q5.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/Assignment2/a2p1.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/Assignment2/a2p2.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/Assignment2/a2p2q1.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/Assignment2/a2p2q6.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/Assignment3/a3p1.cc	/^int main (int argc, char* argv[]) {$/;"	f	language:C++
+main	/home/andrew/CS138/Assignment3/a3p1q3.cc	/^int main (int argc, char* argv[]) {$/;"	f	language:C++
+main	/home/andrew/CS138/Assignment3/a3p2.cc	/^int main(int argc, char *argv[]) {$/;"	f	language:C++
+main	/home/andrew/CS138/Assignment4/a4p1.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/Assignment4/a4p2.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/Assignment4/a4p3.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/Assignment5/a5.cc	/^int main (int argc, char* argv[]) {$/;"	f	language:C++
+main	/home/andrew/CS138/bst.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/fileio.cc	/^int main(int argc, char* argv[]){$/;"	f	language:C++
+main	/home/andrew/CS138/helloworld.cpp	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/lectures/binarysearchtree.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/lectures/inheritance.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/lectures/lectureoodemoclass.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/lectures/sequence.cc	/^  int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/lectures/stackooexample.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/midtermreview/a.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/midtermreview/fileio.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/midtermreview/inputprac.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/midtermreview/queue.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/midtermreview/stack.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/midtermreview/testwithreference.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/stringLengthTester.cc	/^int main(){$/;"	f	language:C++
+main	/home/andrew/CS138/vectorusage.cc	/^int main(){$/;"	f	language:C++
+makeList	/home/andrew/CS138/Assignment2/a2p2.cc	/^Node *makeList(){$/;"	f	language:C++
+makeList	/home/andrew/CS138/Assignment2/a2p2q1.cc	/^Node *makeList(){$/;"	f	language:C++
+makeList	/home/andrew/CS138/Assignment2/a2p2q6.cc	/^Node *makeList(){$/;"	f	language:C++
+makePairList	/home/andrew/CS138/Assignment2/a2p2.cc	/^Node *makePairList(string s1,string s2){$/;"	f	language:C++
+makePairList	/home/andrew/CS138/Assignment2/a2p2q1.cc	/^Node *makePairList(string s1,string s2){$/;"	f	language:C++
+makePairList	/home/andrew/CS138/Assignment2/a2p2q6.cc	/^Node *makePairList(string s1,string s2){$/;"	f	language:C++
+module.exports	/home/andrew/Projects/Pluto/plugins/superiorsibling.js	/^module.exports = function(pluto) {$/;"	f	language:JavaScript
+module.exports	/home/andrew/Projects/Pluto/plugins/welcome.js	/^module.exports = function(pluto) {$/;"	f	language:JavaScript
+music	/home/andrew/Projects/socialtunes/app.js	/^var music = [];$/;"	v	language:JavaScript
+musicPath	/home/andrew/Projects/socialtunes/app.js	/^var musicPath = "\/home\/icechen1\/Downloads\/";$/;"	v	language:JavaScript
+name	/home/andrew/CS138/Assignment4/a4p3.cc	/^  string name;$/;"	m	language:C++	struct:SBLnode	file:
+name	/home/andrew/CS138/Assignment5/a5.cc	/^    string name;$/;"	m	language:C++	class:Animal	file:
+name	/home/andrew/CS138/lectures/inheritance.cc	/^    const string name;$/;"	m	language:C++	class:Child	file:
+namespaces	/home/andrew/Projects/muzik-webapp/test.py	/^                   namespaces=namespaces))$/;"	v	language:Python
+namespaces	/home/andrew/Projects/muzik-webapp/test.py	/^namespaces = {'media':'http:\/\/search.yahoo.com\/mrss\/'}$/;"	v	language:Python
+next	/home/andrew/CS138/Assignment2/a2p2.cc	/^  Node* next;$/;"	m	language:C++	struct:Node	file:
+next	/home/andrew/CS138/Assignment2/a2p2q1.cc	/^  Node* next;$/;"	m	language:C++	struct:Node	file:
+next	/home/andrew/CS138/Assignment2/a2p2q6.cc	/^  Node* next;$/;"	m	language:C++	struct:Node	file:
+next	/home/andrew/CS138/Assignment3/a3p1.cc	/^  Node*next;$/;"	m	language:C++	struct:Node	file:
+next	/home/andrew/CS138/Assignment3/a3p1q3.cc	/^  Node*next;$/;"	m	language:C++	struct:Node	file:
+next	/home/andrew/CS138/Assignment3/a3p2.cc	/^  NodeChunk* next;$/;"	m	language:C++	struct:NodeChunk	file:
+next	/home/andrew/CS138/Assignment4/a4p1.cc	/^  PQnode* next;$/;"	m	language:C++	struct:PQnode	file:
+next	/home/andrew/CS138/Assignment4/a4p1.cc	/^  Qnode* next;$/;"	m	language:C++	struct:Qnode	file:
+next	/home/andrew/CS138/Assignment4/a4p3.cc	/^  SBLnode*next;$/;"	m	language:C++	struct:SBLnode	file:
+next	/home/andrew/CS138/dictionary.cc	/^  DictionaryNode* next;$/;"	m	language:C++	struct:DictionaryNode	file:
+next	/home/andrew/CS138/midtermreview/queue.cc	/^  Node* next;$/;"	m	language:C++	struct:Node	file:
+next	/home/andrew/CS138/midtermreview/stack.cc	/^  Node * next;$/;"	m	language:C++	struct:Node	file:
+next	/home/andrew/CS138/SortedList.cc	/^  Node * next;$/;"	m	language:C++	struct:Node	file:
+nextitem	/home/andrew/CS137/CSStudy/linkedlist.h	/^struct listitem *nextitem;$/;"	m	language:C++	struct:listitem	typeref:struct:listitem::listitem
+Node	/home/andrew/CS138/Assignment2/a2p2.cc	/^struct Node{$/;"	s	language:C++	file:
+Node	/home/andrew/CS138/Assignment2/a2p2q1.cc	/^struct Node{$/;"	s	language:C++	file:
+Node	/home/andrew/CS138/Assignment2/a2p2q6.cc	/^struct Node{$/;"	s	language:C++	file:
+Node	/home/andrew/CS138/Assignment3/a3p1.cc	/^struct Node{$/;"	s	language:C++	file:
+Node	/home/andrew/CS138/Assignment3/a3p1q3.cc	/^struct Node{$/;"	s	language:C++	file:
+Node	/home/andrew/CS138/midtermreview/queue.cc	/^struct Node{$/;"	s	language:C++	file:
+Node	/home/andrew/CS138/midtermreview/stack.cc	/^struct Node{$/;"	s	language:C++	file:
+Node	/home/andrew/CS138/SortedList.cc	/^struct Node{$/;"	s	language:C++	file:
+NodeChunk	/home/andrew/CS138/Assignment3/a3p2.cc	/^struct NodeChunk{$/;"	s	language:C++	file:
+node_find_files	/home/andrew/Projects/socialtunes/app.js	/^var node_find_files = require("node-find-files");$/;"	v	language:JavaScript
+nuke	/home/andrew/CS138/Assignment3/a3p1.cc	/^void nuke(Stew&q){$/;"	f	language:C++
+nuke	/home/andrew/CS138/Assignment3/a3p1q3.cc	/^void nuke(Stew&q){$/;"	f	language:C++
+numPriorities	/home/andrew/CS138/Assignment4/a4p1.cc	/^int numPriorities (const PQ& pq) {$/;"	f	language:C++
+one	/home/andrew/CS138/midtermreview/testwithreference.cc	/^void one(int & temp){$/;"	f	language:C++
+onSongFinished	/home/andrew/Projects/socialtunes/app/js/admin.js	/^  this.onSongFinished = function(callback) {$/;"	m	language:JavaScript	class:AudioPlayer
+other	/home/andrew/CS138/midtermreview/testwithreference.cc	/^  custom * other;$/;"	m	language:C++	struct:custom	file:
+page	/home/andrew/Projects/muzik-webapp/test.py	/^page=request(url)$/;"	v	language:Python
+parser	/home/andrew/Projects/muzik-webapp/test.py	/^parser = etree.XMLParser(remove_blank_text=True)$/;"	v	language:Python
+path	/home/andrew/Projects/socialtunes/app.js	/^var path = require('path');$/;"	v	language:JavaScript
+pdb	/home/andrew/Projects/muzik-webapp/app.py	/^import pdb$/;"	i	language:Python
+pdb	/home/andrew/Projects/muzik-webapp/test.py	/^import pdb$/;"	i	language:Python
+peek	/home/andrew/CS138/lectures/stackooexample.cc	/^    string peek();$/;"	p	language:C++	class:Stack	file:
+peek	/home/andrew/CS138/lectures/stackooexample.cc	/^string Stack::peek(){$/;"	f	language:C++	class:Stack
+peekBack	/home/andrew/CS138/Assignment3/a3p1.cc	/^string peekBack(const Stew & s){$/;"	f	language:C++
+peekBack	/home/andrew/CS138/Assignment3/a3p1q3.cc	/^string peekBack(const Stew & s){$/;"	f	language:C++
+peekFront	/home/andrew/CS138/Assignment3/a3p1.cc	/^string peekFront(const Stew & s){$/;"	f	language:C++
+peekFront	/home/andrew/CS138/Assignment3/a3p1q3.cc	/^string peekFront(const Stew & s){$/;"	f	language:C++
+playMusic	/home/andrew/Projects/socialtunes/app.js	/^function playMusic(){$/;"	f	language:JavaScript
+playSong	/home/andrew/Projects/muzik-webapp/static/js/content.js	/^function playSong(link){$/;"	f	language:JavaScript
+playSong	/home/andrew/Projects/muzik-webapp/static/js/muzikplayer.js	/^  function playSong(){$/;"	f	language:JavaScript
+pluto	/home/andrew/Projects/Pluto/app.js	/^var pluto = require(".\/Pluto\/pluto.js")({$/;"	v	language:JavaScript
+point	/home/andrew/CS137/CSStudy/lengthbetweencoordinates.c	/^struct point{$/;"	s	language:C++	file:
+pop	/home/andrew/CS138/Assignment3/a3p2.cc	/^void pop (Stack& s) {$/;"	f	language:C++
+pop	/home/andrew/CS138/lectures/stackooexample.cc	/^    void pop();$/;"	p	language:C++	class:Stack	file:
+pop	/home/andrew/CS138/lectures/stackooexample.cc	/^void Stack::pop(){$/;"	f	language:C++	class:Stack
+pop	/home/andrew/CS138/midtermreview/stack.cc	/^void pop(Stack & s){$/;"	f	language:C++
+PQ	/home/andrew/CS138/Assignment4/a4p1.cc	/^typedef PQnode* PQ;$/;"	t	language:C++	file:
+PQnode	/home/andrew/CS138/Assignment4/a4p1.cc	/^struct PQnode{$/;"	s	language:C++	file:
+prev	/home/andrew/CS138/Assignment3/a3p1.cc	/^  Node*prev;$/;"	m	language:C++	struct:Node	file:
+prev	/home/andrew/CS138/Assignment3/a3p1q3.cc	/^  Node*prev;$/;"	m	language:C++	struct:Node	file:
+prev	/home/andrew/CS138/SortedList.cc	/^  Node* prev;$/;"	m	language:C++	struct:Node	file:
+primeFactorization	/home/andrew/CS137/CSStudy/primefactorization.c	/^void primeFactorization(double number){$/;"	f	language:C++
+print	/home/andrew/CS138/Assignment3/a3p1.cc	/^void print(Stew & q, char op){$/;"	f	language:C++
+print	/home/andrew/CS138/Assignment3/a3p1q3.cc	/^void print(Stew & q, char op){$/;"	f	language:C++
+print	/home/andrew/CS138/midtermreview/stack.cc	/^void print(Stack &s){$/;"	f	language:C++
+printArray	/home/andrew/CS137/CSStudy/reallocation.c	/^void printArray(int *array,int n){$/;"	f	language:C++
+printBST	/home/andrew/CS138/bst.cc	/^void printBST(const BST * tree){$/;"	f	language:C++
+printBST	/home/andrew/CS138/lectures/binarysearchtree.cc	/^void printBST(const BSTNode& root){$/;"	f	language:C++
+printData	/home/andrew/CS138/Assignment4/a4p1.cc	/^void printData(const PQ&pq){$/;"	f	language:C++
+printFNord	/home/andrew/CS138/Assignment1/a1q2.cc	/^void printFNord(int numChar, vector<string>s){$/;"	f	language:C++
+printFNord	/home/andrew/CS138/Assignment1/a1q2.cc	/^void printFNord(int,vector<string>);$/;"	p	language:C++	file:
+printForward	/home/andrew/CS138/Assignment1/a1q2.cc	/^void printForward(int numChar,vector<string> s){$/;"	f	language:C++
+printForward	/home/andrew/CS138/Assignment1/a1q2.cc	/^void printForward(int,vector<string>);$/;"	p	language:C++	file:
+printList	/home/andrew/CS138/Assignment2/a2p2.cc	/^void printList(Node *p){$/;"	f	language:C++
+printList	/home/andrew/CS138/Assignment2/a2p2q1.cc	/^void printList(Node *p){$/;"	f	language:C++
+printList	/home/andrew/CS138/Assignment2/a2p2q6.cc	/^void printList(Node *p){$/;"	f	language:C++
+printPairInOrder	/home/andrew/CS138/Assignment2/a2p2.cc	/^void printPairInOrder(Node *p1,Node *p2){$/;"	f	language:C++
+printPairInOrder	/home/andrew/CS138/Assignment2/a2p2q1.cc	/^void printPairInOrder(Node *p1,Node *p2){$/;"	f	language:C++
+printPairInOrder	/home/andrew/CS138/Assignment2/a2p2q6.cc	/^void printPairInOrder(Node *p1,Node *p2){$/;"	f	language:C++
+printQ	/home/andrew/CS138/midtermreview/queue.cc	/^void printQ(const Q &q){$/;"	f	language:C++
+printReverse	/home/andrew/CS138/Assignment1/a1q2.cc	/^void printReverse(int numChar,vector<string>s){$/;"	f	language:C++
+printReverse	/home/andrew/CS138/Assignment1/a1q2.cc	/^void printReverse(int,vector<string>);$/;"	p	language:C++	file:
+printReverseRecursive	/home/andrew/CS138/Assignment2/a2p2.cc	/^void printReverseRecursive(){$/;"	f	language:C++
+printReverseRecursive	/home/andrew/CS138/Assignment2/a2p2q1.cc	/^void printReverseRecursive(){$/;"	f	language:C++
+printReverseRecursive	/home/andrew/CS138/Assignment2/a2p2q6.cc	/^void printReverseRecursive(){$/;"	f	language:C++
+printSpaces	/home/andrew/CS138/Assignment4/a4p2.cc	/^void printSpaces(int num){$/;"	f	language:C++
+printString	/home/andrew/CS138/Assignment1/a1q1.cc	/^void printString(int,string);$/;"	p	language:C++	file:
+printString	/home/andrew/CS138/Assignment1/a1q2.cc	/^void printString(int numChar,string s){$/;"	f	language:C++
+printString	/home/andrew/CS138/Assignment1/a1q2.cc	/^void printString(int, string);$/;"	p	language:C++	file:
+printString	/home/andrew/CS138/Assignment1/a1q3.cc	/^void printString(int numChar,string s){$/;"	f	language:C++
+printString	/home/andrew/CS138/Assignment1/a1q3.cc	/^void printString(int,string);$/;"	p	language:C++	file:
+printString	/home/andrew/CS138/Assignment1/a1q4.cc	/^void printString(int numChar,string s){$/;"	f	language:C++
+printString	/home/andrew/CS138/Assignment1/a1q4.cc	/^void printString(int,string);$/;"	p	language:C++	file:
+printString	/home/andrew/CS138/Assignment1/a1q5.cc	/^void printString(int numChar,string s){$/;"	f	language:C++
+printString	/home/andrew/CS138/Assignment1/a1q5.cc	/^void printString(int,string);$/;"	p	language:C++	file:
+printString	/home/andrew/CS138/Assignment2/a2p1.cc	/^void printString(int numChar,string s){$/;"	f	language:C++
+printString	/home/andrew/CS138/Assignment2/a2p1.cc	/^void printString(int,string);$/;"	p	language:C++	file:
+printTextJustified	/home/andrew/CS138/Assignment1/a1q5.cc	/^vector<string> printTextJustified(int numberOfCharactersPerLine, vector <string> st);$/;"	p	language:C++	file:
+printTextJustified	/home/andrew/CS138/Assignment2/a2p1.cc	/^vector<string> printTextJustified(int numberOfCharactersPerLine, vector <string> st);$/;"	p	language:C++	file:
+printTextJustified2	/home/andrew/CS138/Assignment1/a1q3.cc	/^vector<string> printTextJustified2(int numberOfCharactersPerLine,vector<string>content );$/;"	p	language:C++	file:
+printTextJustified2	/home/andrew/CS138/Assignment1/a1q3.cc	/^vector<string> printTextJustified2(int numberOfCharactersPerLine,vector<string>content ){$/;"	f	language:C++
+printTextJustified2	/home/andrew/CS138/Assignment1/a1q5.cc	/^vector<string> printTextJustified2(int numberOfCharactersPerLine, vector <string> st);$/;"	p	language:C++	file:
+printTextJustified2	/home/andrew/CS138/Assignment1/a1q5.cc	/^vector<string> printTextJustified2(int numberOfCharactersPerLine,vector<string>content ){$/;"	f	language:C++
+printTextJustified2	/home/andrew/CS138/Assignment2/a2p1.cc	/^vector<string> printTextJustified2(int numberOfCharactersPerLine, vector <string> st);$/;"	p	language:C++	file:
+printTextJustified2	/home/andrew/CS138/Assignment2/a2p1.cc	/^vector<string> printTextJustified2(int numberOfCharactersPerLine,vector<string>content ){$/;"	f	language:C++
+printTextJustified3	/home/andrew/CS138/Assignment1/a1q5.cc	/^vector<string> printTextJustified3(int numberOfCharactersPerLine,vector<string>content );$/;"	p	language:C++	file:
+printTextJustified3	/home/andrew/CS138/Assignment1/a1q5.cc	/^vector<string> printTextJustified3(int numberOfCharactersPerLine,vector<string>content ){$/;"	f	language:C++
+printTextJustified3	/home/andrew/CS138/Assignment2/a2p1.cc	/^vector<string> printTextJustified3(int numberOfCharactersPerLine,vector<string>content );$/;"	p	language:C++	file:
+printTextJustified3	/home/andrew/CS138/Assignment2/a2p1.cc	/^vector<string> printTextJustified3(int numberOfCharactersPerLine,vector<string>content ){$/;"	f	language:C++
+printTextJustified4	/home/andrew/CS138/Assignment1/a1q4.cc	/^vector<string> printTextJustified4(int numberOfCharactersPerLine,vector<string>content );$/;"	p	language:C++	file:
+printTextJustified4	/home/andrew/CS138/Assignment1/a1q4.cc	/^vector<string> printTextJustified4(int numberOfCharactersPerLine,vector<string>content ){$/;"	f	language:C++
+printTextJustified4	/home/andrew/CS138/Assignment1/a1q5.cc	/^vector<string> printTextJustified4(int numberOfCharactersPerLine,vector<string>content );$/;"	p	language:C++	file:
+printTextJustified4	/home/andrew/CS138/Assignment1/a1q5.cc	/^vector<string> printTextJustified4(int numberOfCharactersPerLine,vector<string>content ){$/;"	f	language:C++
+printTextJustified4	/home/andrew/CS138/Assignment2/a2p1.cc	/^vector<string> printTextJustified4(int numberOfCharactersPerLine,vector<string>content );$/;"	p	language:C++	file:
+printTextJustified4	/home/andrew/CS138/Assignment2/a2p1.cc	/^vector<string> printTextJustified4(int numberOfCharactersPerLine,vector<string>content ){$/;"	f	language:C++
+printTextJustified5	/home/andrew/CS138/Assignment1/a1q5.cc	/^vector<string> printTextJustified5(int numberOfCharactersPerLine,vector<string> content ){$/;"	f	language:C++
+printTextJustified5	/home/andrew/CS138/Assignment1/a1q5.cc	/^vector<string> printTextJustified5(int numberOfCharactersPerLine,vector<string>content );$/;"	p	language:C++	file:
+printTextJustified5	/home/andrew/CS138/Assignment2/a2p1.cc	/^vector<string> printTextJustified5(int numberOfCharactersPerLine,vector<string> content ){$/;"	f	language:C++
+printTextJustified5	/home/andrew/CS138/Assignment2/a2p1.cc	/^vector<string> printTextJustified5(int numberOfCharactersPerLine,vector<string>content );$/;"	p	language:C++	file:
+printTextLeft	/home/andrew/CS138/Assignment1/a1q3.cc	/^void printTextLeft(int numberOfCharactersPerLine, vector <string> st);$/;"	p	language:C++	file:
+priority	/home/andrew/CS138/Assignment4/a4p1.cc	/^  int priority;$/;"	m	language:C++	struct:PQnode	file:
+push	/home/andrew/CS138/Assignment3/a3p2.cc	/^void push (string val, Stack& s) {$/;"	f	language:C++
+push	/home/andrew/CS138/lectures/stackooexample.cc	/^    void push(string s);$/;"	p	language:C++	class:Stack	file:
+push	/home/andrew/CS138/lectures/stackooexample.cc	/^void Stack::push(string s){$/;"	f	language:C++	class:Stack
+push	/home/andrew/CS138/midtermreview/stack.cc	/^void push(Stack & s, int val){$/;"	f	language:C++
+q	/home/andrew/CS138/Assignment4/a4p1.cc	/^  Queue q;$/;"	m	language:C++	struct:PQnode	file:
+Q	/home/andrew/CS138/Assignment4/a4p1.cc	/^typedef Qnode * Q;$/;"	t	language:C++	file:
+q	/home/andrew/CS138/Assignment4/a4p3.cc	/^  Queue q;$/;"	m	language:C++	struct:SBL	file:
+Q	/home/andrew/CS138/midtermreview/queue.cc	/^typedef Queue * Q;$/;"	t	language:C++	file:
+Qnode	/home/andrew/CS138/Assignment4/a4p1.cc	/^struct Qnode{$/;"	s	language:C++	file:
+Queue	/home/andrew/CS138/Assignment4/a4p1.cc	/^struct Queue{$/;"	s	language:C++	file:
+Queue	/home/andrew/CS138/Assignment4/a4p3.cc	/^struct Queue{$/;"	s	language:C++	file:
+Queue	/home/andrew/CS138/midtermreview/queue.cc	/^struct Queue{$/;"	s	language:C++	file:
+quote	/home/andrew/Projects/muzik-webapp/app.py	/^from urllib.parse import quote$/;"	i	language:Python
+quote	/home/andrew/Projects/muzik-webapp/test.py	/^from urllib.parse import quote$/;"	i	language:Python
+remindme	/home/andrew/.bashrc	/^    remindme() { sleep $1 && zenity --info --text "$2" & }$/;"	f	language:Sh
+render_template	/home/andrew/Projects/muzik-webapp/app.py	/^from flask import Flask, url_for, request, render_template$/;"	i	language:Python
+request	/home/andrew/Projects/muzik-webapp/app.py	/^from flask import Flask, url_for, request, render_template$/;"	i	language:Python
+Request	/home/andrew/Projects/muzik-webapp/app.py	/^from urllib.request import urlopen,Request$/;"	i	language:Python
+requests	/home/andrew/Projects/muzik-webapp/app.py	/^import requests$/;"	i	language:Python
+requests	/home/andrew/Projects/muzik-webapp/test.py	/^import requests$/;"	i	language:Python
+restart	/home/andrew/.bashrc	/^      restart() {$/;"	f	language:Sh
+reverse	/home/andrew/CS137/CSStudy/rev.c	/^int reverse(){$/;"	f	language:C++
+right	/home/andrew/CS138/Assignment4/a4p2.cc	/^  BST_Node* right;$/;"	m	language:C++	struct:BST_Node	file:
+right	/home/andrew/CS138/Assignment4/a4p3.cc	/^  SBLnode *left, *right;$/;"	m	language:C++	struct:SBLnode	file:
+right	/home/andrew/CS138/bst.cc	/^  BST* right;$/;"	m	language:C++	struct:BST	file:
+right	/home/andrew/CS138/lectures/binarysearchtree.cc	/^  BSTNode* right;$/;"	m	language:C++	struct:BSTNode	file:
+root	/home/andrew/CS138/Assignment4/a4p3.cc	/^  BST root;$/;"	m	language:C++	struct:SBL	file:
+root	/home/andrew/Projects/muzik-webapp/test.py	/^root = tree.getroot()$/;"	v	language:Python
+SBL	/home/andrew/CS138/Assignment4/a4p3.cc	/^struct SBL{$/;"	s	language:C++	file:
+SBLnode	/home/andrew/CS138/Assignment4/a4p3.cc	/^struct SBLnode{$/;"	s	language:C++	file:
+SBL_arrive	/home/andrew/CS138/Assignment4/a4p3.cc	/^void SBL_arrive(string name,SBL& sbl){$/;"	f	language:C++
+SBL_first	/home/andrew/CS138/Assignment4/a4p3.cc	/^string SBL_first(const SBL& sbl){$/;"	f	language:C++
+SBL_init	/home/andrew/CS138/Assignment4/a4p3.cc	/^void SBL_init(SBL& sbl){$/;"	f	language:C++
+SBL_leave	/home/andrew/CS138/Assignment4/a4p3.cc	/^void SBL_leave(SBL& sbl){$/;"	f	language:C++
+SBL_lookup	/home/andrew/CS138/Assignment4/a4p3.cc	/^bool SBL_lookup(const SBL& sbl, string name){$/;"	f	language:C++
+SBL_printInAlphabeticalOrder	/home/andrew/CS138/Assignment4/a4p3.cc	/^void SBL_printInAlphabeticalOrder(const SBL& sbl){$/;"	f	language:C++
+SBL_printInArrivalOrder	/home/andrew/CS138/Assignment4/a4p3.cc	/^void SBL_printInArrivalOrder(const SBL& sbl){$/;"	f	language:C++
+SBL_size	/home/andrew/CS138/Assignment4/a4p3.cc	/^int SBL_size(const SBL& sbl){$/;"	f	language:C++
+score	/home/andrew/CS137/CSStudy/jellyfish.c	/^int score(char **result,int entries){$/;"	f	language:C++
+search	/home/andrew/CS137/CSStudy/binarysearch2.c	/^int search(int *a, int n, int value)$/;"	f	language:C++
+search	/home/andrew/CS137/CSStudy/binarysearch3.c	/^int search(int *a, int n, int value)$/;"	f	language:C++
+search	/home/andrew/CS137/CSStudy/linearsearch.c	/^int search(int *a, int n, int value){$/;"	f	language:C++
+search2	/home/andrew/CS137/CSStudy/binarysearch2.c	/^int search2(int *a, int n, int value){$/;"	f	language:C++
+search3	/home/andrew/CS137/CSStudy/binarysearch2.c	/^int search3(int *a, int n, int value){$/;"	f	language:C++
+search4	/home/andrew/CS137/CSStudy/binarysearch2.c	/^int search4(int *a, int n, int value)$/;"	f	language:C++
+searchDownloadNL	/home/andrew/Projects/muzik-webapp/app.py	/^def searchDownloadNL(songName):$/;"	f	language:Python
+searchForSongs	/home/andrew/Projects/muzik-webapp/app.py	/^def searchForSongs():$/;"	f	language:Python
+searchMP3Skull	/home/andrew/Projects/muzik-webapp/app.py	/^def searchMP3Skull(songName):$/;"	f	language:Python
+searchYouTube	/home/andrew/Projects/muzik-webapp/app.py	/^def searchYouTube(songName):$/;"	f	language:Python
+serveGUI	/home/andrew/Projects/muzik-webapp/app.py	/^def serveGUI():$/;"	f	language:Python
+serveLanding	/home/andrew/Projects/muzik-webapp/app.py	/^def serveLanding():$/;"	f	language:Python
+setAlbumArtURL	/home/andrew/Projects/muzik-webapp/Song.py	/^    def setAlbumArtURL(self, albumArtUrl):$/;"	m	language:Python	class:Song
+setArtist	/home/andrew/Projects/muzik-webapp/Song.py	/^    def setArtist(self, artist):$/;"	m	language:Python	class:Song
+setDirectory	/home/andrew/Projects/socialtunes/app.js	/^this.setDirectory = function(dir){$/;"	f	language:JavaScript
+setElement	/home/andrew/CS137/CSStudy/vector.c	/^void setElement(struct vector *list, int index, int value){$/;"	f	language:C++
+setElement	/home/andrew/CS137/CSStudy/vector.h	/^void setElement(struct vector *list, int index, int value);$/;"	p	language:C++
+setSong	/home/andrew/Projects/socialtunes/app/js/admin.js	/^  this.setSong = function(song) {$/;"	m	language:JavaScript	class:AudioPlayer
+setValue	/home/andrew/CS137/CSStudy/vector3.c	/^void setValue(struct vector *a,int value, int index) {$/;"	f	language:C++
+setValue	/home/andrew/CS137/CSStudy/vector3.h	/^void setValue(struct vector *a, int value, int index);$/;"	p	language:C++
+setValue	/home/andrew/CS137/CSStudy/vector4.c	/^void setValue(struct vector *l,int index, int value){$/;"	f	language:C++
+setValue	/home/andrew/CS137/CSStudy/vector4.h	/^void setValue(struct vector *l,int index, int value);$/;"	p	language:C++
+setVerified	/home/andrew/Projects/muzik-webapp/Song.py	/^    def setVerified(self,condition):$/;"	m	language:Python	class:Song
+Sheep	/home/andrew/CS138/Assignment5/a5.cc	/^    Sheep(string sheepName):Animal(sheepName){}$/;"	f	language:C++	class:Sheep
+Sheep	/home/andrew/CS138/Assignment5/a5.cc	/^class Sheep:public Animal{$/;"	c	language:C++	file:
+sheepList	/home/andrew/CS138/Assignment5/a5.cc	/^    vector<Sheep *>sheepList;$/;"	m	language:C++	class:Flock	file:
+size	/home/andrew/CS137/CSStudy/vector.h	/^  int size;$/;"	m	language:C++	struct:vector
+size	/home/andrew/CS137/CSStudy/vector2.c	/^int size;$/;"	m	language:C++	struct:vector	file:
+size	/home/andrew/CS137/CSStudy/vector3.h	/^int size;$/;"	m	language:C++	struct:vector
+size	/home/andrew/CS137/CSStudy/vector4.h	/^int size;$/;"	m	language:C++	struct:vector
+size	/home/andrew/CS138/Assignment3/a3p2.cc	/^int size (const Stack& s) {$/;"	f	language:C++
+size	/home/andrew/CS138/Assignment3/a3p2.cc	/^int size(const Stack&s);$/;"	p	language:C++	file:
+sizeByPriority	/home/andrew/CS138/Assignment4/a4p1.cc	/^int sizeByPriority (const PQ& pq, int priority) {$/;"	f	language:C++
+sizePQ	/home/andrew/CS138/Assignment4/a4p1.cc	/^int sizePQ (const PQ& pq) {$/;"	f	language:C++
+Song	/home/andrew/Projects/muzik-webapp/Song.py	/^class Song:$/;"	c	language:Python
+songArray	/home/andrew/Projects/muzik-webapp/static/js/content.js	/^var songArray=[];$/;"	v	language:JavaScript
+songFinishedCallback	/home/andrew/Projects/socialtunes/app/js/admin.js	/^  var songFinishedCallback = function() {};$/;"	f	language:JavaScript	function:AudioPlayer
+songName	/home/andrew/Projects/muzik-webapp/test.py	/^songName="Hooked on a feeling"$/;"	v	language:Python
+songToJson	/home/andrew/Projects/muzik-webapp/Song.py	/^    def songToJson(self):$/;"	m	language:Python	class:Song
+sort	/home/andrew/CS137/CSStudy/insertionsort2.c	/^int sort(int *a, int n)$/;"	f	language:C++
+sort	/home/andrew/CS137/CSStudy/insertionsort3.c	/^int sort(int *a, int n)$/;"	f	language:C++
+sort	/home/andrew/CS137/CSStudy/insertionsort4.c	/^int sort(int *a, int n){$/;"	f	language:C++
+sort	/home/andrew/CS137/CSStudy/mergesort2.c	/^void sort(int *a, int n, int *temp){$/;"	f	language:C++
+sort	/home/andrew/CS137/CSStudy/mergesort3.c	/^void sort(int *a, int n, int *temp){$/;"	f	language:C++
+sort	/home/andrew/CS137/CSStudy/mergesort4.c	/^void sort(int *a, int n, int *temp)$/;"	f	language:C++
+sort	/home/andrew/CS137/CSStudy/mergesort5.c	/^void sort(int *a, int n, int *temp)$/;"	f	language:C++
+sort	/home/andrew/CS137/CSStudy/selectionsort2.c	/^void sort(int *a,int n)$/;"	f	language:C++
+sort	/home/andrew/CS137/CSStudy/selectionsort3.c	/^int sort(int *a, int n)$/;"	f	language:C++
+sort	/home/andrew/CS137/CSStudy/selectionsort4.c	/^int sort(int *a, int n)$/;"	f	language:C++
+sort2	/home/andrew/CS137/CSStudy/insertionsort2.c	/^int sort2(int *a, int n)$/;"	f	language:C++
+sort2	/home/andrew/CS137/CSStudy/mergesort3.c	/^void sort2(int *a, int n, int *temp)$/;"	f	language:C++
+sort2	/home/andrew/CS137/CSStudy/selectionsort2.c	/^void sort2(int *a, int n)$/;"	f	language:C++
+sort3	/home/andrew/CS137/CSStudy/insertionsort2.c	/^void sort3(int *a, int n)$/;"	f	language:C++
+sort3	/home/andrew/CS137/CSStudy/selectionsort2.c	/^void sort3(int *a, int n)$/;"	f	language:C++
+sortPair	/home/andrew/CS138/Assignment2/a2p2.cc	/^Node *sortPair(Node *p1,Node* p2){$/;"	f	language:C++
+sortPair	/home/andrew/CS138/Assignment2/a2p2q1.cc	/^Node *sortPair(Node *p1,Node* p2){$/;"	f	language:C++
+sortPair	/home/andrew/CS138/Assignment2/a2p2q6.cc	/^Node *sortPair(Node *p1,Node* p2){$/;"	f	language:C++
+soundOff	/home/andrew/CS138/Assignment5/a5.cc	/^    virtual void soundOff();$/;"	p	language:C++	class:Flock	file:
+soundOff	/home/andrew/CS138/Assignment5/a5.cc	/^void Flock::soundOff(){$/;"	f	language:C++	class:Flock
+speak	/home/andrew/CS138/Assignment5/a5.cc	/^    virtual void speak () const = 0;$/;"	p	language:C++	class:Animal	file:
+speak	/home/andrew/CS138/Assignment5/a5.cc	/^    virtual void speak() const;$/;"	p	language:C++	class:Dog	file:
+speak	/home/andrew/CS138/Assignment5/a5.cc	/^    virtual void speak()const;$/;"	p	language:C++	class:Sheep	file:
+speak	/home/andrew/CS138/Assignment5/a5.cc	/^void Dog::speak() const{$/;"	f	language:C++	class:Dog
+speak	/home/andrew/CS138/Assignment5/a5.cc	/^void Sheep::speak()const{$/;"	f	language:C++	class:Sheep
+speak	/home/andrew/CS138/lectures/inheritance.cc	/^    void speak()const;$/;"	p	language:C++	class:Child	file:
+speak	/home/andrew/CS138/lectures/lectureoodemoclass.cc	/^    void speak() const;$/;"	p	language:C++	class:Balloon	file:
+speak	/home/andrew/CS138/lectures/lectureoodemoclass.cc	/^void Balloon::speak() const{$/;"	f	language:C++	class:Balloon
+Stack	/home/andrew/CS138/Assignment3/a3p2.cc	/^struct Stack{$/;"	s	language:C++	file:
+Stack	/home/andrew/CS138/lectures/stackooexample.cc	/^    Stack();$/;"	p	language:C++	class:Stack	file:
+Stack	/home/andrew/CS138/lectures/stackooexample.cc	/^class Stack{$/;"	c	language:C++	file:
+Stack	/home/andrew/CS138/lectures/stackooexample.cc	/^Stack::Stack(){$/;"	f	language:C++	class:Stack
+Stack	/home/andrew/CS138/midtermreview/stack.cc	/^typedef Node* Stack;$/;"	t	language:C++	file:
+start	/home/andrew/.bashrc	/^      start() {$/;"	f	language:Sh
+status	/home/andrew/.bashrc	/^      status() {$/;"	f	language:Sh
+Stew	/home/andrew/CS138/Assignment3/a3p1.cc	/^struct Stew{$/;"	s	language:C++	file:
+Stew	/home/andrew/CS138/Assignment3/a3p1q3.cc	/^struct Stew{$/;"	s	language:C++	file:
+stop	/home/andrew/.bashrc	/^      stop() {$/;"	f	language:Sh
+suitableelement	/home/andrew/CS138/Assignment4/a4p2.cc	/^BST_Node*  suitableelement(BST & root){$/;"	f	language:C++
+suitableelement	/home/andrew/CS138/Assignment4/a4p3.cc	/^SBLnode*  suitableelement(BST & root){$/;"	f	language:C++
+sumevenfibonacci	/home/andrew/CS137/CSStudy/fibonaccisum.c	/^int sumevenfibonacci(int *numbers){$/;"	f	language:C++
+swap	/home/andrew/.bashrc	/^      swap() {$/;"	f	language:Sh
+swap	/home/andrew/CS138/Assignment3/a3p2.cc	/^void swap (Stack& s) {$/;"	f	language:C++
+test1	/home/andrew/CS138/Assignment4/a4p2.cc	/^}void test1(){$/;"	f	language:C++
+test2	/home/andrew/CS138/Assignment4/a4p2.cc	/^void test2(){$/;"	f	language:C++
+test3	/home/andrew/CS138/Assignment4/a4p2.cc	/^void test3(){$/;"	f	language:C++
+test4	/home/andrew/CS138/Assignment4/a4p2.cc	/^void test4(){$/;"	f	language:C++
+test5	/home/andrew/CS138/Assignment4/a4p2.cc	/^void test5(){$/;"	f	language:C++
+testProgram	/home/andrew/CS138/Assignment1/a1q4.cc	/^void testProgram(vector<string> workingString,int numberOfCharactersPerLine);$/;"	p	language:C++	file:
+testProgram	/home/andrew/CS138/Assignment1/a1q5.cc	/^void testProgram(vector<string> workingString,int numberOfCharactersPerLine);$/;"	p	language:C++	file:
+testProgram	/home/andrew/CS138/Assignment2/a2p1.cc	/^void testProgram(vector<string> workingString,int numberOfCharactersPerLine);$/;"	p	language:C++	file:
+testProgram	/home/andrew/CS138/Assignment3/a3p2.cc	/^void testProgram(Stack& s){$/;"	f	language:C++
+top	/home/andrew/CS138/Assignment3/a3p2.cc	/^string top (const Stack& s) {$/;"	f	language:C++
+top10	/home/andrew/.bashrc	/^    top10() { history | awk '{a[$2]++ } END{for(i in a){print a[i] " " i}}' | sort -rn | head; }$/;"	f	language:Sh
+topElt	/home/andrew/CS138/Assignment3/a3p2.cc	/^  int topElt;$/;"	m	language:C++	struct:Stack	file:
+to_iso	/home/andrew/.bashrc	/^    to_iso () {$/;"	f	language:Sh
+tree	/home/andrew/Projects/muzik-webapp/test.py	/^tree = etree.parse(page, parser)$/;"	v	language:Python
+trololol	/home/andrew/CS138/fileio.cc	/^int trololol=10;$/;"	m	language:C++	namespace:helloAbishek	file:
+two	/home/andrew/CS138/midtermreview/testwithreference.cc	/^void two(custom & test, custom & test2){$/;"	f	language:C++
+unitTest1	/home/andrew/CS138/Assignment4/a4p1.cc	/^void unitTest1(){$/;"	f	language:C++
+unitTest3	/home/andrew/CS138/Assignment4/a4p1.cc	/^void unitTest3(){$/;"	f	language:C++
+unitTest4	/home/andrew/CS138/Assignment4/a4p1.cc	/^void unitTest4(){$/;"	f	language:C++
+up	/home/andrew/.bashrc	/^    up() {$/;"	f	language:Sh
+urllib	/home/andrew/Projects/muzik-webapp/test.py	/^import urllib.urlopen$/;"	i	language:Python
+urlopen	/home/andrew/Projects/muzik-webapp/app.py	/^from urllib.request import urlopen,Request$/;"	i	language:Python
+urlopen	/home/andrew/Projects/muzik-webapp/test.py	/^import urllib.urlopen$/;"	i	language:Python
+url_for	/home/andrew/Projects/muzik-webapp/app.py	/^from flask import Flask, url_for, request, render_template$/;"	i	language:Python
+usage	/home/andrew/.bashrc	/^      usage(){$/;"	f	language:Sh
+User	/home/andrew/Projects/muzik-webapp/user.py	/^class User:$/;"	c	language:Python
+users::register	/home/andrew/Projects/Pluto/plugins/welcome.js	/^        "users::register": function(user) {$/;"	m	language:JavaScript	class:welcomeModule.listeners
+users::signin	/home/andrew/Projects/Pluto/plugins/welcome.js	/^        "users::signin": function(user) {$/;"	m	language:JavaScript	class:welcomeModule.listeners
+users::signout	/home/andrew/Projects/Pluto/plugins/welcome.js	/^        "users::signout": function(user) {$/;"	m	language:JavaScript	class:welcomeModule.listeners
+v	/home/andrew/CS138/lectures/stackooexample.cc	/^    vector<string>v;$/;"	m	language:C++	class:Stack	file:
+val	/home/andrew/CS138/Assignment2/a2p2.cc	/^  string val;$/;"	m	language:C++	struct:Node	file:
+val	/home/andrew/CS138/Assignment2/a2p2q1.cc	/^  string val;$/;"	m	language:C++	struct:Node	file:
+val	/home/andrew/CS138/Assignment2/a2p2q6.cc	/^  string val;$/;"	m	language:C++	struct:Node	file:
+val	/home/andrew/CS138/Assignment3/a3p1.cc	/^  string val;$/;"	m	language:C++	struct:Node	file:
+val	/home/andrew/CS138/Assignment3/a3p1q3.cc	/^  string val;$/;"	m	language:C++	struct:Node	file:
+val	/home/andrew/CS138/Assignment3/a3p2.cc	/^  string* val;$/;"	m	language:C++	struct:NodeChunk	file:
+val	/home/andrew/CS138/Assignment4/a4p1.cc	/^  string val;$/;"	m	language:C++	struct:Qnode	file:
+val	/home/andrew/CS138/bst.cc	/^  string val;$/;"	m	language:C++	struct:BST	file:
+val	/home/andrew/CS138/lectures/binarysearchtree.cc	/^  string val;$/;"	m	language:C++	struct:BSTNode	file:
+val	/home/andrew/CS138/midtermreview/queue.cc	/^  int val;$/;"	m	language:C++	struct:Node	file:
+val	/home/andrew/CS138/midtermreview/stack.cc	/^  int val;$/;"	m	language:C++	struct:Node	file:
+val	/home/andrew/CS138/SortedList.cc	/^  string val;$/;"	m	language:C++	struct:Node	file:
+value	/home/andrew/CS137/CSStudy/linkedlist.h	/^int value;$/;"	m	language:C++	struct:listitem
+value	/home/andrew/CS138/dictionary.cc	/^  string value;$/;"	m	language:C++	struct:DictionaryNode	file:
+value	/home/andrew/CS138/midtermreview/testwithreference.cc	/^  int value;$/;"	m	language:C++	struct:custom	file:
+values	/home/andrew/CS137/CSStudy/vector3.h	/^int *values;$/;"	m	language:C++	struct:vector
+vector	/home/andrew/CS137/CSStudy/vector.h	/^struct vector{$/;"	s	language:C++
+vector	/home/andrew/CS137/CSStudy/vector2.c	/^struct vector{$/;"	s	language:C++	file:
+vector	/home/andrew/CS137/CSStudy/vector3.h	/^struct vector{$/;"	s	language:C++
+vector	/home/andrew/CS137/CSStudy/vector4.h	/^struct vector{$/;"	s	language:C++
+vectorCreate	/home/andrew/CS137/CSStudy/vector2.c	/^struct vector *vectorCreate(){$/;"	f	language:C++
+vectorDelete	/home/andrew/CS137/CSStudy/vector2.c	/^void vectorDelete(struct vector *list){$/;"	f	language:C++
+vectorGet	/home/andrew/CS137/CSStudy/vector2.c	/^void vectorGet(struct vector *list,int index){$/;"	f	language:C++
+vectorSet	/home/andrew/CS137/CSStudy/vector2.c	/^void vectorSet(struct vector *l,int index,int value){$/;"	f	language:C++
+vundle_readme	/home/andrew/.vim/bundles.vim	/^let vundle_readme=expand($HOME.'\/.vim\/bundle\/vundle\/README.md')$/;"	v	language:Vim
+x	/home/andrew/CS137/CSStudy/lengthbetweencoordinates.c	/^  int x,y,z;$/;"	m	language:C++	struct:point	file:
+xmlhttp.onreadystatechange	/home/andrew/Projects/socialtunes/app/js/admin.js	/^    xmlhttp.onreadystatechange = function() {$/;"	f	language:JavaScript
+y	/home/andrew/CS137/CSStudy/lengthbetweencoordinates.c	/^  int x,y,z;$/;"	m	language:C++	struct:point	file:
+z	/home/andrew/CS137/CSStudy/lengthbetweencoordinates.c	/^  int x,y,z;$/;"	m	language:C++	struct:point	file:
+__init__	/home/andrew/Projects/muzik-webapp/Song.py	/^    def __init__(self,title, url=None,artist="Unknown Artist",albumArtUrl=None,album="Unkown Album"):$/;"	m	language:Python	class:Song
+__init__	/home/andrew/Projects/muzik-webapp/user.py	/^    def __init__(self,id,name):$/;"	m	language:Python	class:User
+~Animal	/home/andrew/CS138/Assignment5/a5.cc	/^    virtual ~Animal (){}$/;"	f	language:C++	class:Animal
+~Balloon	/home/andrew/CS138/lectures/lectureoodemoclass.cc	/^    virtual ~Balloon();$/;"	p	language:C++	class:Balloon	file:
+~Balloon	/home/andrew/CS138/lectures/lectureoodemoclass.cc	/^Balloon::~Balloon(){$/;"	f	language:C++	class:Balloon
+~Child	/home/andrew/CS138/lectures/inheritance.cc	/^    virtual ~Child();$/;"	p	language:C++	class:Child	file:
+~Dog	/home/andrew/CS138/Assignment5/a5.cc	/^    ~Dog(){}$/;"	f	language:C++	class:Dog
+~Flock	/home/andrew/CS138/Assignment5/a5.cc	/^    virtual ~Flock();$/;"	p	language:C++	class:Flock	file:
+~Flock	/home/andrew/CS138/Assignment5/a5.cc	/^Flock::~Flock(){$/;"	f	language:C++	class:Flock
+~Sheep	/home/andrew/CS138/Assignment5/a5.cc	/^    ~Sheep(){}$/;"	f	language:C++	class:Sheep
+~Stack	/home/andrew/CS138/lectures/stackooexample.cc	/^    virtual ~Stack();$/;"	p	language:C++	class:Stack	file:
+~Stack	/home/andrew/CS138/lectures/stackooexample.cc	/^Stack::~Stack(){$/;"	f	language:C++	class:Stack
