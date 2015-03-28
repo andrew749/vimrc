@@ -1,5 +1,10 @@
 /home/andrew/Projects/MailIt/index.html
+/home/andrew/.vim/plugins.vim
+/home/andrew/.vimrc
+/home/andrew/.vim/settings.vim
+/home/andrew/.vim/map.vim
 /home/andrew/Projects/MailIt/stylesheet.css
+/home/andrew/.vim/.git/COMMIT_EDITMSG
 /home/andrew/Documents/CourseNotes1B/.git/COMMIT_EDITMSG
 /home/andrew/Documents/CourseNotes1B/theorems.tex
 /home/andrew/Documents/CourseNotes1B/README.md
@@ -14,15 +19,11 @@
 /home/andrew/Projects/andrew749.github.io/projectpages/projectpage.css
 /home/andrew/CS138/Assignment6/a6p4.cc
 /home/andrew/.vim/bundles.vim
-/home/andrew/.vim/plugins.vim
 /home/andrew/Documents/CourseNotes1B/theorems.aux
-/home/andrew/.vimrc
 /home/andrew/.vim/README.md
 /home/andrew/.vim/functions.vim
 /home/andrew/.vim/autocmd.vim
 /home/andrew/.vim/vimrc
-/home/andrew/.vim/map.vim
-/home/andrew/.vim/settings.vim
 /usr/share/vim/vim74/doc/help.txt
 /home/andrew/Projects/andrew749.github.io/testcms.html
 /home/andrew/Projects/andrew749.github.io/dynamiccontent.js
@@ -81,7 +82,6 @@
 /home/andrew/Projects/muzik-webapp/templates/index.html
 /home/andrew/Projects/muzik-webapp/tests/card.html
 /home/andrew/Projects/muzik-webapp/tests/card.css
-/home/andrew/.vim/.git/COMMIT_EDITMSG
 /home/andrew/Projects/muzik-webapp/README.md
 /home/andrew/Projects/muzik-webapp/static/js/content.js
 /home/andrew/Projects/muzik-webapp/Song.py

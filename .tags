@@ -1,4 +1,40 @@
 !_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+/	/home/andrew/.vim/plugins.vim	/^map  \/ <Plug>(easymotion-sn)$/;"	m	language:Vim
+/	/home/andrew/.vim/plugins.vim	/^omap \/ <Plug>(easymotion-tn)$/;"	m	language:Vim
+;	/home/andrew/.vim/plugins.vim	/^  nmap ; <Plug>NERDCommenterToggle$/;"	m	language:Vim
+;	/home/andrew/.vim/plugins.vim	/^  vmap ; <Plug>NERDCommenterToggle$/;"	m	language:Vim
+<C-j>	/home/andrew/.vim/plugins.vim	/^    imap <expr><C-j>  pumvisible() ? "\\<C-n>" : "\\<C-j>"$/;"	m	language:Vim
+<C-k>	/home/andrew/.vim/plugins.vim	/^    imap <expr><C-k>  pumvisible() ? "\\<C-p>" : "\\<C-k>"$/;"	m	language:Vim
+<CR>	/home/andrew/.vim/plugins.vim	/^    imap <expr> <CR> SmartReturn()$/;"	m	language:Vim
+<Down>	/home/andrew/.vim/plugins.vim	/^    imap <expr><Down> pumvisible() ? "\\<C-n>" : "\\<Down>"$/;"	m	language:Vim
+<Esc>	/home/andrew/.vim/plugins.vim	/^    imap <expr><Esc> pumvisible() ? "\\<C-y>\\<Esc>" : "\\<Esc>"$/;"	m	language:Vim
+<Leader>a"	/home/andrew/.vim/plugins.vim	/^  vmap <Leader>a"  :Tabularize \/"<CR>$/;"	m	language:Vim
+<Leader>a#	/home/andrew/.vim/plugins.vim	/^  vmap <Leader>a#  :Tabularize \/#<CR>$/;"	m	language:Vim
+<Leader>a'	/home/andrew/.vim/plugins.vim	/^  vmap <Leader>a'  :Tabularize \/'<CR>$/;"	m	language:Vim
+<Leader>a)	/home/andrew/.vim/plugins.vim	/^  vmap <Leader>a)  :Tabularize \/)\/r1c1l0<CR>$/;"	m	language:Vim
+<Leader>a,	/home/andrew/.vim/plugins.vim	/^  vmap <Leader>a,  :Tabularize \/,<CR>$/;"	m	language:Vim
+<Leader>a,,	/home/andrew/.vim/plugins.vim	/^  vmap <Leader>a,, :Tabularize \/,\\zs<CR>$/;"	m	language:Vim
+<Leader>a:	/home/andrew/.vim/plugins.vim	/^  vmap <Leader>a:  :Tabularize \/:<CR>$/;"	m	language:Vim
+<Leader>a::	/home/andrew/.vim/plugins.vim	/^  vmap <Leader>a:: :Tabularize \/:\\zs<CR>$/;"	m	language:Vim
+<Leader>a=	/home/andrew/.vim/plugins.vim	/^  vmap <Leader>a=  :Tabularize \/=<CR>$/;"	m	language:Vim
+<Leader>a==	/home/andrew/.vim/plugins.vim	/^  vmap <Leader>a== :Tabularize \/=\/r1c1l0<CR>$/;"	m	language:Vim
+<Leader>b	/home/andrew/.vim/plugins.vim	/^  nmap <silent><Leader>b :EasyBufferHorizontal<CR>$/;"	m	language:Vim
+<Leader>ca	/home/andrew/.vim/plugins.vim	/^  nmap <Leader>ca :Calendar<CR>$/;"	m	language:Vim
+<Leader>css	/home/andrew/.vim/plugins.vim	/^  nmap <Leader>css :w <BAR> !lessc % > %:t:r.css<CR><space>$/;"	m	language:Vim
+<leader>gb	/home/andrew/.vim/plugins.vim	/^  nmap <silent> <leader>gb :Gblame<CR>$/;"	m	language:Vim
+<leader>gc	/home/andrew/.vim/plugins.vim	/^  nmap <silent> <leader>gc :Gcommit<CR>$/;"	m	language:Vim
+<leader>gd	/home/andrew/.vim/plugins.vim	/^  nmap <silent> <leader>gd :Gdiff<CR>$/;"	m	language:Vim
+<leader>ge	/home/andrew/.vim/plugins.vim	/^  nmap <silent> <leader>ge :Gedit<CR>$/;"	m	language:Vim
+<leader>gg	/home/andrew/.vim/plugins.vim	/^  nmap <silent> <leader>gg :SignifyToggle<CR>$/;"	m	language:Vim
+<leader>gi	/home/andrew/.vim/plugins.vim	/^  nmap <silent> <leader>gi :Git add -p %<CR>$/;"	m	language:Vim
+<leader>gl	/home/andrew/.vim/plugins.vim	/^  nmap <silent> <leader>gl :Glog<CR>$/;"	m	language:Vim
+<leader>gp	/home/andrew/.vim/plugins.vim	/^  nmap <silent> <leader>gp :Git push<CR>$/;"	m	language:Vim
+<leader>gr	/home/andrew/.vim/plugins.vim	/^  nmap <silent> <leader>gr :Gread<CR>$/;"	m	language:Vim
+<leader>gs	/home/andrew/.vim/plugins.vim	/^  nmap <silent> <leader>gs :Gstatus<CR>$/;"	m	language:Vim
+<leader>gw	/home/andrew/.vim/plugins.vim	/^  nmap <silent> <leader>gw :Gwrite<CR>$/;"	m	language:Vim
+<Leader>nt	/home/andrew/.vim/plugins.vim	/^  nmap <silent><Leader>nt :NERDTreeToggle<CR>$/;"	m	language:Vim
+<TAB>	/home/andrew/.vim/plugins.vim	/^    imap <expr><TAB> neosnippet#expandable_or_jumpable() ?$/;"	m	language:Vim
+<Up>	/home/andrew/.vim/plugins.vim	/^    imap <expr><Up> pumvisible() ? "\\<C-p>" : "\\<Up>"$/;"	m	language:Vim
 a	/home/andrew/CS137/CSStudy/vector2.c	/^int *a;$/;"	m	language:C++	struct:vector	file:
 a	/home/andrew/CS137/CSStudy/vector4.h	/^int *a;$/;"	m	language:C++	struct:vector
 addBack	/home/andrew/CS138/Assignment3/a3p1.cc	/^void addBack(Stew & s,string val){$/;"	f	language:C++
@@ -69,13 +105,17 @@ BST_Node	/home/andrew/CS138/Assignment4/a4p2.cc	/^struct BST_Node{$/;"	s	languag
 BST_print	/home/andrew/CS138/Assignment4/a4p2.cc	/^void BST_print(const BST& root){$/;"	f	language:C++
 BST_print	/home/andrew/CS138/Assignment4/a4p3.cc	/^void BST_print(const BST& root){$/;"	f	language:C++
 calc	/home/andrew/.bashrc	/^    calc() {$/;"	f	language:Sh
+cb	/home/andrew/.vim/plugins.vim	/^  nmap <silent>cb :CtrlPBuffer<CR>$/;"	m	language:Vim
 cd	/home/andrew/.bashrc	/^    function cd() { builtin cd -- "$@" && { [ "$PS1" = "" ] || ls -hrt --color; }; }$/;"	f	language:Sh
+cf	/home/andrew/.vim/plugins.vim	/^  nmap <silent>cf :CtrlPFunky<CR>$/;"	m	language:Vim
 Child	/home/andrew/CS138/lectures/inheritance.cc	/^    Child();$/;"	p	language:C++	class:Child	file:
 Child	/home/andrew/CS138/lectures/inheritance.cc	/^    Child(string name, int age);$/;"	p	language:C++	class:Child	file:
 Child	/home/andrew/CS138/lectures/inheritance.cc	/^    Child(string name, int age, Balloon b);$/;"	p	language:C++	class:Child	file:
 Child	/home/andrew/CS138/lectures/inheritance.cc	/^class Child{$/;"	c	language:C++	file:
 chunkSize	/home/andrew/CS138/Assignment3/a3p2.cc	/^  int chunkSize;$/;"	m	language:C++	struct:Stack	file:
 cipher	/home/andrew/CS137/CSStudy/cipher.c	/^char *cipher(char *original){$/;"	f	language:C++
+cl	/home/andrew/.vim/plugins.vim	/^  nmap <silent>cl :CtrlPLine<CR>$/;"	m	language:Vim
+cm	/home/andrew/.vim/plugins.vim	/^  nmap <silent>cm :CtrlPMRUFiles<CR>$/;"	m	language:Vim
 color	/home/andrew/CS138/lectures/inheritance.cc	/^    string color;$/;"	m	language:C++	class:Balloon	file:
 colour	/home/andrew/CS138/lectures/lectureoodemoclass.cc	/^    string colour;$/;"	m	language:C++	class:Balloon	file:
 compare	/home/andrew/CS137/CSStudy/binarysearchlibrary.c	/^int compare (const void *a, const void *b){$/;"	f	language:C++
@@ -89,6 +129,7 @@ convert	/home/andrew/CS137/CSStudy/decimaltobinary.c	/^void convert(int number, 
 count	/home/andrew/CS137/CSStudy/numberoftimescharacterappears.c	/^int count(char *s,int n,char character){$/;"	f	language:C++
 count	/home/andrew/CS138/Assignment4/a4p3.cc	/^  int count;$/;"	m	language:C++	struct:SBL	file:
 counter	/home/andrew/Projects/Pluto/plugins/superiorsibling.js	/^      "counter": 0$/;"	p	language:JavaScript	class:module.exports.data
+cp	/home/andrew/.vim/plugins.vim	/^  nmap <silent>cp :CtrlPMixed<CR>$/;"	m	language:Vim
 createlist	/home/andrew/CS137/CSStudy/linkedlist.c	/^struct list *createlist(){$/;"	f	language:C++
 createlist	/home/andrew/CS137/CSStudy/linkedlist.h	/^struct list *createlist();$/;"	p	language:C++
 createNewNodeChunk	/home/andrew/CS138/Assignment3/a3p2.cc	/^NodeChunk* createNewNodeChunk (int N) {$/;"	f	language:C++
@@ -98,6 +139,7 @@ createVector	/home/andrew/CS137/CSStudy/vector3.c	/^struct vector *createVector(
 createVector	/home/andrew/CS137/CSStudy/vector3.h	/^struct vector *createVector();$/;"	p	language:C++
 createVector	/home/andrew/CS137/CSStudy/vector4.c	/^struct vector *createVector(){$/;"	f	language:C++
 createVector	/home/andrew/CS137/CSStudy/vector4.h	/^struct vector *createVector();$/;"	p	language:C++
+ct	/home/andrew/.vim/plugins.vim	/^  nmap <silent>ct :CtrlPBufTag<CR>$/;"	m	language:Vim
 currentNumBalloons	/home/andrew/CS138/lectures/inheritance.cc	/^    static int currentNumBalloons;$/;"	m	language:C++	class:Child	file:
 custom	/home/andrew/CS138/midtermreview/testwithreference.cc	/^struct custom{$/;"	s	language:C++	file:
 d	/home/andrew/CS138/midtermreview/a.cc	/^void d(int *a){$/;"	f	language:C++
@@ -165,7 +207,96 @@ fullLine	/home/andrew/CS138/Assignment1/a1q5.cc	/^vector<string> fullLine(vector
 fullLine	/home/andrew/CS138/Assignment1/a1q5.cc	/^vector<string> fullLine(vector<string>::const_iterator & it,vector<string> & vec,int numberOfCharactersPerLine){$/;"	f	language:C++
 fullLine	/home/andrew/CS138/Assignment2/a2p1.cc	/^vector<string> fullLine(vector<string>::const_iterator & it,vector<string> & vec,int numberOfCharactersPerLine);$/;"	p	language:C++	file:
 fullLine	/home/andrew/CS138/Assignment2/a2p1.cc	/^vector<string> fullLine(vector<string>::const_iterator & it,vector<string> & vec,int numberOfCharactersPerLine){$/;"	f	language:C++
+g:airline#extensions#ctrlp#show_adjacent_modes	/home/andrew/.vim/plugins.vim	/^  let g:airline#extensions#ctrlp#show_adjacent_modes = 1$/;"	v	language:Vim
+g:airline#extensions#hunks#enabled	/home/andrew/.vim/plugins.vim	/^  let g:airline#extensions#hunks#enabled = 1$/;"	v	language:Vim
+g:airline#extensions#syntastic#enabled	/home/andrew/.vim/plugins.vim	/^  let g:airline#extensions#syntastic#enabled = 1$/;"	v	language:Vim
+g:airline#extensions#tabline#enabled	/home/andrew/.vim/plugins.vim	/^    let g:airline#extensions#tabline#enabled = 1$/;"	v	language:Vim
+g:airline#extensions#whitespace#enabled	/home/andrew/.vim/plugins.vim	/^  let g:airline#extensions#whitespace#enabled = 1$/;"	v	language:Vim
+g:airline_detect_modified	/home/andrew/.vim/plugins.vim	/^  let g:airline_detect_modified=1$/;"	v	language:Vim
+g:airline_detect_paste	/home/andrew/.vim/plugins.vim	/^  let g:airline_detect_paste=1$/;"	v	language:Vim
+g:airline_enable_branch	/home/andrew/.vim/plugins.vim	/^  let g:airline_enable_branch=1$/;"	v	language:Vim
+g:airline_inactive_collapse	/home/andrew/.vim/plugins.vim	/^  let g:airline_inactive_collapse=1$/;"	v	language:Vim
+g:airline_left_sep	/home/andrew/.vim/plugins.vim	/^  let g:airline_left_sep = ''$/;"	v	language:Vim
+g:airline_right_sep	/home/andrew/.vim/plugins.vim	/^  let g:airline_right_sep = ''$/;"	v	language:Vim
+g:airline_symbols	/home/andrew/.vim/plugins.vim	/^      let g:airline_symbols = {}$/;"	v	language:Vim
+g:airline_symbols	/home/andrew/.vim/plugins.vim	/^      let g:airline_symbols.branch = ''$/;"	v	language:Vim
+g:airline_symbols	/home/andrew/.vim/plugins.vim	/^      let g:airline_symbols.linenr = ''$/;"	v	language:Vim
+g:airline_theme	/home/andrew/.vim/plugins.vim	/^  let g:airline_theme='base16'$/;"	v	language:Vim
 g:bundle_groups	/home/andrew/.vim/bundles.vim	/^  let g:bundle_groups=['general', 'devel', 'languages', 'colorscheme']$/;"	v	language:Vim
+g:calendar_current_idx	/home/andrew/.vim/plugins.vim	/^  let g:calendar_current_idx = 1$/;"	v	language:Vim
+g:calendar_list	/home/andrew/.vim/plugins.vim	/^  let g:calendar_list = [$/;"	v	language:Vim
+g:ctrlp_cache_dir	/home/andrew/.vim/plugins.vim	/^  let g:ctrlp_cache_dir = $HOME.'\/.vim\/.ctrlp_cache'$/;"	v	language:Vim
+g:ctrlp_custom_ignore	/home/andrew/.vim/plugins.vim	/^  let g:ctrlp_custom_ignore = {$/;"	v	language:Vim
+g:ctrlp_extensions	/home/andrew/.vim/plugins.vim	/^  let g:ctrlp_extensions = ['funky']$/;"	v	language:Vim
+g:ctrlp_user_command	/home/andrew/.vim/plugins.vim	/^  let g:ctrlp_user_command = {$/;"	v	language:Vim
+g:ctrlp_working_path_mode	/home/andrew/.vim/plugins.vim	/^  let g:ctrlp_working_path_mode = 'ra'$/;"	v	language:Vim
+g:easybuffer_horizontal_height	/home/andrew/.vim/plugins.vim	/^  let g:easybuffer_horizontal_height = '15'$/;"	v	language:Vim
+g:EasyMotion_leader_key	/home/andrew/.vim/plugins.vim	/^  let g:EasyMotion_leader_key = 'e'$/;"	v	language:Vim
+g:easytags_async	/home/andrew/.vim/plugins.vim	/^  let g:easytags_async = 1$/;"	v	language:Vim
+g:easytags_dynamic_files	/home/andrew/.vim/plugins.vim	/^  let g:easytags_dynamic_files = 1$/;"	v	language:Vim
+g:easytags_file	/home/andrew/.vim/plugins.vim	/^  let g:easytags_file = $HOME.'\/.vim\/.tags'$/;"	v	language:Vim
+g:indentLine_char	/home/andrew/.vim/plugins.vim	/^  let g:indentLine_char = '│'$/;"	v	language:Vim
+g:indentLine_faster	/home/andrew/.vim/plugins.vim	/^  let g:indentLine_faster = 1$/;"	v	language:Vim
+g:neocomplete#enable_at_startup	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#enable_at_startup = 1$/;"	v	language:Vim
+g:neocomplete#enable_auto_delimiter	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#enable_auto_delimiter = 1$/;"	v	language:Vim
+g:neocomplete#enable_smart_case	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#enable_smart_case = 1$/;"	v	language:Vim
+g:neocomplete#force_overwrite_completefunc	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#force_overwrite_completefunc = 1$/;"	v	language:Vim
+g:neocomplete#keyword_patterns	/home/andrew/.vim/plugins.vim	/^        let g:neocomplete#keyword_patterns = {}$/;"	v	language:Vim
+g:neocomplete#keyword_patterns	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#keyword_patterns['default'] = '\\h\\w*'$/;"	v	language:Vim
+g:neocomplete#max_list	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#max_list = 15$/;"	v	language:Vim
+g:neocomplete#sources#omni#input_patterns	/home/andrew/.vim/plugins.vim	/^      let g:neocomplete#sources#omni#input_patterns = {}$/;"	v	language:Vim
+g:neocomplete#sources#omni#input_patterns	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#sources#omni#input_patterns.c='[^.[:digit:] *\\t]\\%(\\.\\|->\\)\\%(\\h\\w*\\)\\?'$/;"	v	language:Vim
+g:neocomplete#sources#omni#input_patterns	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#sources#omni#input_patterns.cpp='[^.[:digit:] *\\t]\\%(\\.\\|->\\)\\%(\\h\\w*\\)\\?\\|\\h\\w*::\\%(\\h\\w*\\)\\?'$/;"	v	language:Vim
+g:neocomplete#sources#omni#input_patterns	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#sources#omni#input_patterns.css='^\\s\\+\\w+\\|\\w+[):;]?\\s\\+\\|[@!]'$/;"	v	language:Vim
+g:neocomplete#sources#omni#input_patterns	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#sources#omni#input_patterns.go='\\h\\w*\\%.'$/;"	v	language:Vim
+g:neocomplete#sources#omni#input_patterns	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#sources#omni#input_patterns.html='<[^>]*'$/;"	v	language:Vim
+g:neocomplete#sources#omni#input_patterns	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#sources#omni#input_patterns.java='\\%(\\h\\w*\\|)\\)\\.'$/;"	v	language:Vim
+g:neocomplete#sources#omni#input_patterns	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#sources#omni#input_patterns.javascript='[^. \\t]\\.\\%(\\h\\w*\\)\\?'$/;"	v	language:Vim
+g:neocomplete#sources#omni#input_patterns	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#sources#omni#input_patterns.json='[^. \\t]\\.\\%(\\h\\w*\\)\\?'$/;"	v	language:Vim
+g:neocomplete#sources#omni#input_patterns	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#sources#omni#input_patterns.less='^\\s\\+\\w+\\|\\w+[):;]?\\s\\+\\|[@!]'$/;"	v	language:Vim
+g:neocomplete#sources#omni#input_patterns	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#sources#omni#input_patterns.markdown='<[^>]*'$/;"	v	language:Vim
+g:neocomplete#sources#omni#input_patterns	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#sources#omni#input_patterns.perl='\\h\\w*->\\h\\w*\\|\\h\\w*::'$/;"	v	language:Vim
+g:neocomplete#sources#omni#input_patterns	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#sources#omni#input_patterns.php='[^. \\t]->\\%(\\h\\w*\\)\\?\\|\\h\\w*::\\%(\\h\\w*\\)\\?'$/;"	v	language:Vim
+g:neocomplete#sources#omni#input_patterns	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#sources#omni#input_patterns.python3='[^. *\\t]\\.\\h\\w*\\|\\h\\w*::'$/;"	v	language:Vim
+g:neocomplete#sources#omni#input_patterns	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#sources#omni#input_patterns.python='[^. *\\t]\\.\\h\\w*\\|\\h\\w*::'$/;"	v	language:Vim
+g:neocomplete#sources#omni#input_patterns	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#sources#omni#input_patterns.ruby='[^. *\\t]\\.\\w*\\|\\h\\w*::'$/;"	v	language:Vim
+g:neocomplete#sources#omni#input_patterns	/home/andrew/.vim/plugins.vim	/^    let g:neocomplete#sources#omni#input_patterns.xml='<[^>]*'$/;"	v	language:Vim
+g:neosnippet#snippets_directory	/home/andrew/.vim/plugins.vim	/^    let g:neosnippet#snippets_directory=expand($HOME.'\/.vim\/bundle\/vim-snippets\/snippets')$/;"	v	language:Vim
+g:NERDTreeBookmarksFile	/home/andrew/.vim/plugins.vim	/^  let g:NERDTreeBookmarksFile = expand($HOME.'\/.vim\/.NERDTreeBookmarks')$/;"	v	language:Vim
+g:NERDTreeCaseSensitiveSort	/home/andrew/.vim/plugins.vim	/^  let g:NERDTreeCaseSensitiveSort = 1$/;"	v	language:Vim
+g:NERDTreeChristmasTree	/home/andrew/.vim/plugins.vim	/^  let g:NERDTreeChristmasTree = 0$/;"	v	language:Vim
+g:NERDTreeIgnore	/home/andrew/.vim/plugins.vim	/^  let g:NERDTreeIgnore=[$/;"	v	language:Vim
+g:NERDTreeMouseMode	/home/andrew/.vim/plugins.vim	/^  let g:NERDTreeMouseMode = 2$/;"	v	language:Vim
+g:NERDTreeQuitOnOpen	/home/andrew/.vim/plugins.vim	/^  let g:NERDTreeQuitOnOpen = 1$/;"	v	language:Vim
+g:NERDTreeShowBookmarks	/home/andrew/.vim/plugins.vim	/^  let g:NERDTreeShowBookmarks = 1$/;"	v	language:Vim
+g:NERDTreeShowHidden	/home/andrew/.vim/plugins.vim	/^  let g:NERDTreeShowHidden = 1$/;"	v	language:Vim
+g:NERDTreeWinPos	/home/andrew/.vim/plugins.vim	/^  let g:NERDTreeWinPos = "right"$/;"	v	language:Vim
+g:NERDTreeWinSize	/home/andrew/.vim/plugins.vim	/^  let g:NERDTreeWinSize = 40$/;"	v	language:Vim
+g:netrw_liststyle	/home/andrew/.vim/plugins.vim	/^  let g:netrw_liststyle=3$/;"	v	language:Vim
+g:signify_sign_add	/home/andrew/.vim/plugins.vim	/^  let g:signify_sign_add = '+'$/;"	v	language:Vim
+g:signify_sign_change	/home/andrew/.vim/plugins.vim	/^  let g:signify_sign_change = '!'$/;"	v	language:Vim
+g:signify_sign_delete	/home/andrew/.vim/plugins.vim	/^  let g:signify_sign_delete = '-'$/;"	v	language:Vim
+g:signify_sign_delete_first_line	/home/andrew/.vim/plugins.vim	/^  let g:signify_sign_delete_first_line = '-'$/;"	v	language:Vim
+g:signify_sign_overwrite	/home/andrew/.vim/plugins.vim	/^  let g:signify_sign_overwrite = 1$/;"	v	language:Vim
+g:syntastic_always_populate_loc_list	/home/andrew/.vim/plugins.vim	/^  let g:syntastic_always_populate_loc_list=1$/;"	v	language:Vim
+g:syntastic_auto_jump	/home/andrew/.vim/plugins.vim	/^  let g:syntastic_auto_jump=0$/;"	v	language:Vim
+g:syntastic_auto_loc_list	/home/andrew/.vim/plugins.vim	/^  let g:syntastic_auto_loc_list=1$/;"	v	language:Vim
+g:syntastic_enable_balloons	/home/andrew/.vim/plugins.vim	/^  let g:syntastic_enable_balloons = 1$/;"	v	language:Vim
+g:syntastic_enable_signs	/home/andrew/.vim/plugins.vim	/^  let g:syntastic_enable_signs=1$/;"	v	language:Vim
+g:syntastic_error_symbol	/home/andrew/.vim/plugins.vim	/^  let g:syntastic_error_symbol='✗'$/;"	v	language:Vim
+g:syntastic_loc_list_height	/home/andrew/.vim/plugins.vim	/^  let g:syntastic_loc_list_height=5$/;"	v	language:Vim
+g:syntastic_warning_symbol	/home/andrew/.vim/plugins.vim	/^  let g:syntastic_warning_symbol='⚠'$/;"	v	language:Vim
+g:UltiSnipsExpandTrigger	/home/andrew/.vim/plugins.vim	/^    let g:UltiSnipsExpandTrigger = "<Tab>"$/;"	v	language:Vim
+g:UltiSnipsJumpBackwardTrigger	/home/andrew/.vim/plugins.vim	/^    let g:UltiSnipsJumpBackwardTrigger = "<S-tab>"$/;"	v	language:Vim
+g:UltiSnipsJumpForwardTrigger	/home/andrew/.vim/plugins.vim	/^    let g:UltiSnipsJumpForwardTrigger = "<Tab>"$/;"	v	language:Vim
+g:UltiSnipsListSnippets	/home/andrew/.vim/plugins.vim	/^    let g:UltiSnipsListSnippets="<C-Tab>"$/;"	v	language:Vim
+g:undotree_SetFocusWhenToggle	/home/andrew/.vim/plugins.vim	/^  let g:undotree_SetFocusWhenToggle=1$/;"	v	language:Vim
+g:user_emmet_leader_key	/home/andrew/.vim/plugins.vim	/^  let g:user_emmet_leader_key = '<C-e>'$/;"	v	language:Vim
+g:ycm_key_invoke_completion	/home/andrew/.vim/plugins.vim	/^      let g:ycm_key_invoke_completion = '<C-@>'$/;"	v	language:Vim
+g:ycm_key_invoke_completion	/home/andrew/.vim/plugins.vim	/^      let g:ycm_key_invoke_completion = '<C-Space>'$/;"	v	language:Vim
+g:ycm_key_list_previous_completion	/home/andrew/.vim/plugins.vim	/^    let g:ycm_key_list_previous_completion = ['<C-k>', '<Up>']$/;"	v	language:Vim
+g:ycm_key_list_select_completion	/home/andrew/.vim/plugins.vim	/^    let g:ycm_key_list_select_completion = ['<C-j>', '<Down>']$/;"	v	language:Vim
+g:ycm_register_as_syntastic_checker	/home/andrew/.vim/plugins.vim	/^    let g:ycm_register_as_syntastic_checker = 1$/;"	v	language:Vim
 gcd	/home/andrew/CS137/CSStudy/gcd2.c	/^int gcd(int a,int b)$/;"	f	language:C++
 gcd	/home/andrew/CS137/CSStudy/gcd3.c	/^int gcd(int a, int b){$/;"	f	language:C++
 gcd	/home/andrew/CS137/CSStudy/lcm.c	/^int gcd(int a,int b)$/;"	f	language:C++
@@ -411,9 +542,13 @@ module.exports	/home/andrew/Projects/Pluto/plugins/superiorsibling.js	/^module.e
 module.exports	/home/andrew/Projects/Pluto/plugins/welcome.js	/^module.exports = function(pluto) {$/;"	f	language:JavaScript
 music	/home/andrew/Projects/socialtunes/app.js	/^var music = [];$/;"	v	language:JavaScript
 musicPath	/home/andrew/Projects/socialtunes/app.js	/^var musicPath = "\/home\/icechen1\/Downloads\/";$/;"	v	language:JavaScript
+n	/home/andrew/.vim/plugins.vim	/^ map  n <Plug>(easymotion-next)$/;"	m	language:Vim
+N	/home/andrew/.vim/plugins.vim	/^ map  N <Plug>(easymotion-prev)$/;"	m	language:Vim
 name	/home/andrew/CS138/Assignment4/a4p3.cc	/^  string name;$/;"	m	language:C++	struct:SBLnode	file:
 name	/home/andrew/CS138/Assignment5/a5.cc	/^    string name;$/;"	m	language:C++	class:Animal	file:
 name	/home/andrew/CS138/lectures/inheritance.cc	/^    const string name;$/;"	m	language:C++	class:Child	file:
+neocomplete_readme	/home/andrew/.vim/plugins.vim	/^  let neocomplete_readme=expand('~\/.vim\/bundle\/neocomplete\/README.md')$/;"	v	language:Vim
+NERDTreeAutoDeleteBuffer	/home/andrew/.vim/plugins.vim	/^  let NERDTreeAutoDeleteBuffer=1$/;"	v	language:Vim
 next	/home/andrew/CS138/Assignment2/a2p2.cc	/^  Node* next;$/;"	m	language:C++	struct:Node	file:
 next	/home/andrew/CS138/Assignment2/a2p2q1.cc	/^  Node* next;$/;"	m	language:C++	struct:Node	file:
 next	/home/andrew/CS138/Assignment2/a2p2q6.cc	/^  Node* next;$/;"	m	language:C++	struct:Node	file:
@@ -570,6 +705,10 @@ right	/home/andrew/CS138/Assignment4/a4p2.cc	/^  BST_Node* right;$/;"	m	language
 right	/home/andrew/CS138/Assignment4/a4p3.cc	/^  SBLnode *left, *right;$/;"	m	language:C++	struct:SBLnode	file:
 right	/home/andrew/CS138/lectures/binarysearchtree.cc	/^  BSTNode* right;$/;"	m	language:C++	struct:BSTNode	file:
 root	/home/andrew/CS138/Assignment4/a4p3.cc	/^  BST root;$/;"	m	language:C++	struct:SBL	file:
+s:ctrlp_fallback	/home/andrew/.vim/plugins.vim	/^    let s:ctrlp_fallback = 'ack %s --nocolor -f'$/;"	v	language:Vim
+s:ctrlp_fallback	/home/andrew/.vim/plugins.vim	/^    let s:ctrlp_fallback = 'ag %s --nocolor -l -g ""'$/;"	v	language:Vim
+s:ctrlp_fallback	/home/andrew/.vim/plugins.vim	/^    let s:ctrlp_fallback = 'dir %s \/-n \/b \/s \/a-d'$/;"	v	language:Vim
+s:ctrlp_fallback	/home/andrew/.vim/plugins.vim	/^    let s:ctrlp_fallback = 'find %s -type f'$/;"	v	language:Vim
 SBL	/home/andrew/CS138/Assignment4/a4p3.cc	/^struct SBL{$/;"	s	language:C++	file:
 SBLnode	/home/andrew/CS138/Assignment4/a4p3.cc	/^struct SBLnode{$/;"	s	language:C++	file:
 SBL_arrive	/home/andrew/CS138/Assignment4/a4p3.cc	/^void SBL_arrive(string name,SBL& sbl){$/;"	f	language:C++
@@ -642,6 +781,7 @@ SmartHashTable	/home/andrew/CS138/Assignment6/a6p3.cc	/^class SmartHashTable:pub
 SmartHashTable	/home/andrew/CS138/Assignment6/a6p4.cc	/^    SmartHashTable():HashTable(){}$/;"	f	language:C++	class:SmartHashTable
 SmartHashTable	/home/andrew/CS138/Assignment6/a6p4.cc	/^    SmartHashTable(int K):HashTable(K){}$/;"	f	language:C++	class:SmartHashTable
 SmartHashTable	/home/andrew/CS138/Assignment6/a6p4.cc	/^class SmartHashTable:public HashTable{$/;"	c	language:C++	file:
+SmartReturn	/home/andrew/.vim/plugins.vim	/^    function! SmartReturn()$/;"	f	language:Vim
 Song	/home/andrew/Projects/muzik-webapp/Song.py	/^class Song:$/;"	c	language:Python
 songArray	/home/andrew/Projects/muzik-webapp/static/js/content.js	/^var songArray=[];$/;"	v	language:JavaScript
 songFinishedCallback	/home/andrew/Projects/socialtunes/app/js/admin.js	/^  var songFinishedCallback = function() {};$/;"	f	language:JavaScript	function:AudioPlayer
@@ -708,6 +848,7 @@ top10	/home/andrew/.bashrc	/^    top10() { history | awk '{a[$2]++ } END{for(i i
 topElt	/home/andrew/CS138/Assignment3/a3p2.cc	/^  int topElt;$/;"	m	language:C++	struct:Stack	file:
 to_iso	/home/andrew/.bashrc	/^    to_iso () {$/;"	f	language:Sh
 two	/home/andrew/CS138/midtermreview/testwithreference.cc	/^void two(custom & test, custom & test2){$/;"	f	language:C++
+U	/home/andrew/.vim/plugins.vim	/^  nmap <silent>U :UndotreeToggle<CR>$/;"	m	language:Vim
 unitTest1	/home/andrew/CS138/Assignment4/a4p1.cc	/^void unitTest1(){$/;"	f	language:C++
 unitTest3	/home/andrew/CS138/Assignment4/a4p1.cc	/^void unitTest3(){$/;"	f	language:C++
 unitTest4	/home/andrew/CS138/Assignment4/a4p1.cc	/^void unitTest4(){$/;"	f	language:C++
