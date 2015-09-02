@@ -124,3 +124,6 @@ nmap <silent> <leader>ul :t.<CR>Vr-
 
 " find merge conflict markers
 nmap <silent> <leader>fc <ESC>/\v^[<=>]{7}( .*\|$)<CR>
+nmap :dr :diffg RE
+nmap :dl :diffg LO
+nmap :db :diffg BA
