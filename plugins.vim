@@ -8,7 +8,7 @@
   let g:calendar_current_idx = 1
 
 " airline
-  let g:airline_enable_branch=1
+  let g:airline#extensions#enable#branch=1
   let g:airline_detect_modified=1
   let g:airline_detect_paste=1
   let g:airline_inactive_collapse=1
