@@ -1,4 +1,4 @@
- PLUGINS CONFIG
+" PLUGINS CONFIG
 " calendar
   nmap <Leader>ca :Calendar<CR>
   let g:calendar_list = [
