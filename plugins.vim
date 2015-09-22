@@ -1,4 +1,4 @@
-" PLUGINS CONFIG
+ PLUGINS CONFIG
 " calendar
   nmap <Leader>ca :Calendar<CR>
   let g:calendar_list = [
@@ -167,6 +167,9 @@ omap / <Plug>(easymotion-tn)
   vmap <Leader>a:: :Tabularize /:\zs<CR>
   vmap <Leader>a,  :Tabularize /,<CR>
   vmap <Leader>a,, :Tabularize /,\zs<CR>
+
+" tagbar
+  nmap <Leader>tb :Tagbar <CR>
 
 " undotree
   nmap <silent>U :UndotreeToggle<CR>
