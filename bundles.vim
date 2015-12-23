@@ -44,6 +44,7 @@ if count(g:bundle_groups, 'general')
   Plugin 'tpope/vim-bundler'
   Plugin 'troydm/easybuffer.vim'
   Plugin 'yonchu/accelerated-smooth-scroll'
+  Bundle 'ervandew/supertab'
   "replace tools
   if executable('ack')
     Bundle 'mileszs/ack.vim'
@@ -55,16 +56,8 @@ if count(g:bundle_groups, 'general')
 endif
 " DEVELOPER
 if count(g:bundle_groups, 'devel')
-  if WINDOWS()
-    " NeoComplete
-    Plugin 'Shougo/neocomplete'
-    Plugin 'Shougo/neosnippet'
-    Plugin 'Shougo/neosnippet-snippets'
-  else
-    " YouCompleteMe
-    Plugin 'Valloric/YouCompleteMe'
-    Plugin 'SirVer/ultisnips'
-  endif
+  Plugin 'Valloric/YouCompleteMe'
+  Plugin 'SirVer/ultisnips'
   Plugin 'honza/vim-snippets'
   Plugin 'mattn/emmet-vim'
   Plugin 'AzizLight/TaskList.vim'
@@ -88,7 +81,6 @@ if count(g:bundle_groups, 'languages')
   Plugin 'ap/vim-css-color'
   Plugin 'burnettk/vim-angular'
   Plugin 'davidhalter/jedi-vim'
-  Plugin 'tpope/vim-coffee-script'
   Plugin 'tpope/vim-rails'
   Plugin 'vim-ruby/vim-ruby'
 endif
@@ -101,5 +93,6 @@ if count(g:bundle_groups, 'colorscheme')
 endif
   Bundle 'takac/vim-spotifysearch'
   Bundle 'majutsushi/tagbar'
+  Bundle 'tpcstld/GeorgeSyntaxHighlighting'
 " automatically load filetype plugins
 filetype plugin indent on
