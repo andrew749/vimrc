@@ -191,7 +191,7 @@ nohlsearch          " avoid highlighting when reloading vimrc
 set foldenable            " enable folding
 set foldcolumn=1
 set foldlevel=1           " start out with everything folded
-set foldmethod=marker     " detect triple-{ style fold markers
+set foldmethod=syntax
 set foldopen=block,hor,insert,jump,mark,percent,quickfix,search,tag,undo
 set foldtext=MyFoldText() " Which command trigger auto-unfold
 
