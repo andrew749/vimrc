@@ -1,3 +1,6 @@
 *.undofile*
-*cache*
-bundle/*
+bundle/
+.ctrlp_cache/
+.undofile/
+session/
+view/
