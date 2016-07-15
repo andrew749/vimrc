@@ -179,6 +179,7 @@ vmap <Leader>a:: :Tabularize /:\zs<CR>
 vmap <Leader>a,  :Tabularize /,<CR>
 vmap <Leader>a,, :Tabularize /,\zs<CR>
 
+
 " tagbar
 nmap <Leader>tb :Tagbar <CR>
 
@@ -192,6 +193,7 @@ let g:UltiSnipsExpandTrigger = "<Tab>"
 let g:UltiSnipsJumpForwardTrigger = "<Tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<S-tab>"
 let g:UltiSnipsListSnippets="<C-Tab>"
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 " YouCompleteMe
 let g:ycm_register_as_syntastic_checker = 1
 let g:ycm_key_list_select_completion = ['<C-j>', '<Down>']
@@ -205,9 +207,9 @@ else
 endif
 
 " For snippet_complete marker.
-if has('conceal')
-  set conceallevel=2 concealcursor=i
-endif
+"if has('conceal')
+  "set conceallevel=2 concealcursor=nc
+"endif
 
 " Enable omni completion.
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS

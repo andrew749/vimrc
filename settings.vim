@@ -171,10 +171,10 @@ let &sbr = nr2char(8618).' ' " Show ↪ at the beginning of wrapped lines
 set autoindent    " Keep the indent when creating a new line
 set copyindent    " Copy the previous indentation on autoindent
 set expandtab     " Spaces instead of tabs for better cross-editor compatibility
-set shiftwidth=2  " Number of spaces to use in each autoindent step
+set shiftwidth=4  " Number of spaces to use in each autoindent step
 set smarttab      " Use shiftwidth and softtabstop to insert or delete (on <BS>) blanks
-set softtabstop=2 " Number of spaces to skip or insert when <BS>ing or <Tab>ing
-set tabstop=2     " Two tab spaces
+set softtabstop=4 " Number of spaces to skip or insert when <BS>ing or <Tab>ing
+set tabstop=4     " Two tab spaces
 
 " Search
 set hlsearch      " highlight all matches...
@@ -200,3 +200,5 @@ set sessionoptions=buffers,curdir,folds,tabpages,winsize
 let s:sessiondir  = expand("~/.vim/sessions", 1)
 let s:sessionfile = expand(s:sessiondir . "/session.vim", 1)
 let s:sessionlock = expand(s:sessiondir . "/session.lock", 1)
+
+
