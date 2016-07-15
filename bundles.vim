@@ -71,6 +71,7 @@ if count(g:bundle_groups, 'devel')
   Plugin 'mhinz/vim-signify'
   Plugin 'scrooloose/nerdcommenter'
   Plugin 'scrooloose/syntastic'
+  Plugin 'plasticboy/vim-markdown'
 endif
 " LANGUAGES
 if count(g:bundle_groups, 'languages')
@@ -90,9 +91,9 @@ if count(g:bundle_groups, 'colorscheme')
   Plugin 'morhetz/gruvbox'
   Plugin 'sjl/badwolf'
   Plugin 'chriskempson/base16-vim'
+  Plugin 'vim-airline/vim-airline-themes'
 endif
-  Bundle 'takac/vim-spotifysearch'
   Bundle 'majutsushi/tagbar'
-  Bundle 'tpcstld/GeorgeSyntaxHighlighting'
+
 " automatically load filetype plugins
 filetype plugin indent on

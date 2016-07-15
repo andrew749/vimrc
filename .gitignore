@@ -1,1 +1,3 @@
 *.undofile*
+*cache*
+bundle/*

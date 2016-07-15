@@ -18,7 +18,7 @@ if WINDOWS()
   " across (heterogeneous) systems easier.
   set rtp=$HOME/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$HOME/.vim/after
 endif
-set foldmethod=indent
+
 source $HOME/.vim/bundles.vim
 source $HOME/.vim/settings.vim
 source $HOME/.vim/map.vim
