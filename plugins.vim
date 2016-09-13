@@ -62,6 +62,7 @@ nmap <silent>cf :CtrlPFunky<CR>
 nmap <silent>cl :CtrlPLine<CR>
 nmap <silent>cb :CtrlPBuffer<CR>
 nmap <silent>ct :CtrlPBufTag<CR>
+nmap <silent>cT :CtrlPTag<CR>
 
 let g:ctrlp_custom_ignore = {
       \ 'dir': '\.git$\|\.hg$\|\.svn$',
