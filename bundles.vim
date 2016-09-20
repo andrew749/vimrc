@@ -57,7 +57,6 @@ if count(g:bundle_groups, 'devel')
   Plugin 'Valloric/YouCompleteMe'
   Plugin 'SirVer/ultisnips'
   Plugin 'honza/vim-snippets'
-  Plugin 'mattn/emmet-vim'
   Plugin 'AzizLight/TaskList.vim'
   Plugin 'Chiel92/vim-autoformat'
   Plugin 'Raimondi/delimitMate'
@@ -67,17 +66,18 @@ if count(g:bundle_groups, 'devel')
   Plugin 'godlygeek/tabular'
   Plugin 'jbnicolai/rainbow_parentheses.vim'
   Plugin 'scrooloose/nerdcommenter'
+  Plugin 'rizzatti/dash.vim'
   Plugin 'mhinz/vim-signify'
   Plugin 'plasticboy/vim-markdown'
 endif
 " LANGUAGES
+endif
 if count(g:bundle_groups, 'languages')
   Plugin 'sheerun/vim-polyglot'
   Plugin 'othree/html5.vim'
   Plugin 'pangloss/vim-javascript'
   Plugin 'othree/javascript-libraries-syntax.vim'
   Plugin 'ap/vim-css-color'
-  Plugin 'burnettk/vim-angular'
   Plugin 'davidhalter/jedi-vim'
   Plugin 'tpope/vim-rails'
   Plugin 'vim-ruby/vim-ruby'
@@ -96,6 +96,8 @@ Plugin 'mhinz/vim-grepper'
 Plugin 'junegunn/fzf'
 Plugin 'junegunn/fzf.vim'
 Plugin 'neomake/neomake'
+
+  Plugin 'vim-bufpaste'
 
 " automatically load filetype plugins
 filetype plugin indent on

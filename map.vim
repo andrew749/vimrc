@@ -1,4 +1,4 @@
-" KEYMAPPINGS
+"  KEYMAPPINGS
 "DISABLED DEFAULT MAPPING: UNSET SHORTCUTS {{{
   " Unmapping help from F1 and Ctrl-F1 for use toggling the reference manual
   " the :h topic feature works, and <Leader><F1> displays quickref
@@ -130,4 +130,5 @@ nmap :dl :diffg LO
 nmap :db :diffg BA
 
 " Easier window splitting
-nmap <leader> vs :vs
+nmap <leader>vs :vs<CR>
+nmap <leader>hs :sp<CR>
