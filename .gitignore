@@ -6,3 +6,4 @@ session/
 view/
 *.pyc
 *.tags
+plugged/
