@@ -29,7 +29,12 @@ if has("mouse")
   set mouse=a
   set mousehide
   set mousemodel=popup
-  if has("mouse_sgr")|set ttymouse=sgr|else|set ttymouse=xterm2|endif
+  if has("mouse_sgr")
+      set ttymouse=sgr
+  else
+      if !has('nvim')
+          set ttymouse=xterm2|endif
+      endif
 endif
 
 " Editor Settings
@@ -178,5 +183,5 @@ set sessionoptions=buffers,curdir,folds,tabpages,winsize
 let s:sessiondir  = expand("~/.vim/sessions", 1)
 let s:sessionfile = expand(s:sessiondir . "/session.vim", 1)
 let s:sessionlock = expand(s:sessiondir . "/session.lock", 1)
-
+set t_Co=256
 

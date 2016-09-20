@@ -5,3 +5,4 @@ bundle/
 session/
 view/
 *.pyc
+*.tags

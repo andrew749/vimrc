@@ -31,8 +31,6 @@ if count(g:bundle_groups, 'general')
   Plugin 'Stormherz/tablify'
   Plugin 'bling/vim-airline'
   Plugin 'chrisbra/NrrwRgn'
-  Plugin 'kien/ctrlp.vim'
-  Plugin 'tacahiroy/ctrlp-funky'
   Plugin 'kris89/vim-multiple-cursors'
   Plugin 'mbbill/undotree'
   Plugin 'mhinz/vim-startify'
@@ -67,12 +65,12 @@ if count(g:bundle_groups, 'devel')
   Plugin 'gcmt/wildfire.vim'
   Plugin 'godlygeek/tabular'
   Plugin 'jbnicolai/rainbow_parentheses.vim'
-  Plugin 'mhinz/vim-signify'
   Plugin 'scrooloose/nerdcommenter'
-  Plugin 'scrooloose/syntastic'
   Plugin 'rizzatti/dash.vim'
-" LANGUAGES
+  Plugin 'mhinz/vim-signify'
+  Plugin 'plasticboy/vim-markdown'
 endif
+" LANGUAGES
 if count(g:bundle_groups, 'languages')
   Plugin 'sheerun/vim-polyglot'
   Plugin 'othree/html5.vim'
@@ -91,7 +89,12 @@ if count(g:bundle_groups, 'colorscheme')
   Plugin 'chriskempson/base16-vim'
   Plugin 'vim-airline/vim-airline-themes'
 endif
-  Bundle 'majutsushi/tagbar'
+
+Plugin 'majutsushi/tagbar'
+Plugin 'mhinz/vim-grepper'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
+Plugin 'neomake/neomake'
 
   Plugin 'vim-bufpaste'
 
