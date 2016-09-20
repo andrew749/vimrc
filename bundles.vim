@@ -71,7 +71,6 @@ if count(g:bundle_groups, 'devel')
   Plugin 'plasticboy/vim-markdown'
 endif
 " LANGUAGES
-endif
 if count(g:bundle_groups, 'languages')
   Plugin 'sheerun/vim-polyglot'
   Plugin 'othree/html5.vim'
