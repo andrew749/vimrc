@@ -6,6 +6,7 @@ endif
 if !&sidescrolloff
   set sidescrolloff=5
 endif
+set ttimeoutlen=25
 
 " No bell or flash wanted
 set novisualbell " No blinking

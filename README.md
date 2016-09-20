@@ -1,16 +1,16 @@
 # Installation
 
 ## Prerequisites
-
-- Git (1.7+)
-- Vim (7.3+)
+- Git
+- Neovim
 - ctags
+- ag
+- ack
 
 ### Mac:
 
 - [Homebrew][homebrew] - `ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
 - [MacVim][macvim] - `brew install macvim`
-- [Homesick][homesick] - `gem install homesick`
 - [ctags][ctags] - `brew install ctags-exuberant`
 
 # Vim
@@ -47,7 +47,6 @@ Reference to vim mappings.
 - ` <S-TAB>     ` Back-Indent a line
 - ` <S-TAB>     ` Back-Indent a line
 - ` +/-         ` Easy increment/decrement.
-- ` jj          ` Map escape key to jj.
 
 ### Plugins
 
@@ -68,27 +67,57 @@ Reference to vim mappings.
 - `:w!` Sudo write!
 
 ## Plug-Ins
+hotoo/calendar-vim
+Lokaltog/vim-easymotion
+Stormherz/tablify
+bling/vim-airline
+chrisbra/NrrwRgn
+kris89/vim-multiple-cursors
+mbbill/undotree
+mhinz/vim-startify
+tpope/vim-commentary
+tpope/vim-fugitive
+tpope/vim-repeat
+tpope/vim-surround
+tpope/vim-vinegar
+troydm/easybuffer.vim
+yonchu/accelerated-smooth-scroll
+ervandew/supertab
+mileszs/ack.vim
+xolox/vim-misc
+xolox/vim-easytags
+Valloric/YouCompleteMe
+SirVer/ultisnips
+honza/vim-snippets
+AzizLight/TaskList.vim
+Chiel92/vim-autoformat
+Raimondi/delimitMate
+scrooloose/nerdtree
+Yggdroot/indentLine
+gcmt/wildfire.vim
+godlygeek/tabular
+jbnicolai/rainbow_parentheses.vim
+scrooloose/nerdcommenter
+rizzatti/dash.vim
+mhinz/vim-signify
+plasticboy/vim-markdown
+sheerun/vim-polyglot
+othree/html5.vim
+pangloss/vim-javascript
+othree/javascript-libraries-syntax.vim
+ap/vim-css-color
+davidhalter/jedi-vim
+tpope/vim-rails
+vim-ruby/vim-ruby
+morhetz/gruvbox
+altercation/vim-colors-solarized
+sjl/badwolf
+chriskempson/base16-vim
+vim-airline/vim-airline-themes
+mhinz/vim-grepper
+junegunn/fzf
+neomake/neomake
+junegunn/fzf.vim
+andrew749/vim-bufpaste
 
-- [accelerated-smooth-scroll](https://github.com/yonchu/accelerated-smooth-scroll)
-- [airline](https://github.com/bling/vim-airline)
-- [bufferline](https://github.com/bling/vim-bufferline)
-- [calendar]
-- [CtrlP](https://github.com/kien/ctrlp.vim)
-- [CtrlP-funky](https://github.com/tacahiroy/ctrlp-funky)
-- [delimitMate](https://github.com/Raimondi/delimitMate) - Automatic closing of quotes, parenthesis, brackets, etc. \-\-
-- [easyMotion](https://github.com/Lokaltog/vim-easymotion)
-- [IndentLine](https://github.com/Yggdroot/indentLine)
-- [Interactive-replace](https://github.com/hwrod/interactive-replace)
-- [multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
-- [nerdcommenter](https://github.com/scrooloose/nerdcommenter/blob/master/doc/NERD_commenter.txt)
-- [nerdtree](https://github.com/scrooloose/nerdtree/blob/master/doc/NERD_tree.txt)
-- [syntastic](https://github.com/scrooloose/syntastic/blob/master/doc/syntastic.txt)
-- [tabular](https://github.com/godlygeek/tabular/blob/master/doc/Tabular.txt) - Configurable, flexible, intuitive text aligning \-\-
-- [tagbar]
-- [markdown](https://github.com/tpope/vim-markdown)
-- [surround](https://github.com/tpope/vim-surround/blob/master/doc/surround.txt) - Delete, change, and add "surroundings" i.e. parentheses, quotes, and HTML tags \-\-
-- [Ultisnips](https://github.com/SirVer/ultisnips)
-- [undotree](https://github.com/mbbill/undotree) - Graph Vim's undo tree so it is actually usable
-- [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
-- [vimCalc]
-- [vundle]
+majutsushi/tagbar

@@ -53,6 +53,8 @@ let g:easybuffer_horizontal_height = '15'
 let g:EasyMotion_leader_key = 'e'
 hi link EasyMotionTarget ErrorMsg
 hi link EasyMotionShade  Comment
+
+" better searching
 map  / <Plug>(easymotion-sn)
 omap / <Plug>(easymotion-tn)
 
@@ -62,14 +64,11 @@ omap / <Plug>(easymotion-tn)
 " " different highlight method and have some other features )
 map  n <Plug>(easymotion-next)
 map  N <Plug>(easymotion-prev)
+
 " easytags
 let g:easytags_file = $HOME.'/.vim/.tags'
 let g:easytags_async = 1
 let g:easytags_dynamic_files = 1
-set tags=./.tags;
-
-" emmet
-let g:user_emmet_leader_key = '<C-e>'
 
 " fugitive
 nmap <silent> <leader>gs :Gstatus<CR>
@@ -132,10 +131,12 @@ vmap <Leader>a:: :Tabularize /:\zs<CR>
 vmap <Leader>a,  :Tabularize /,<CR>
 vmap <Leader>a,, :Tabularize /,\zs<CR>
 
+"fzf
 nmap <C-p> :GFiles<CR>
+nmap <C-;> :Files<CR>
 
-nmap <Leader>tb :Tagbar <CR>
 " tagbar
+nmap <Leader>tb :Tagbar <CR>
 
 " undotree
 nmap <silent>U :UndotreeToggle<CR>
