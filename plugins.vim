@@ -132,8 +132,9 @@ vmap <Leader>a,  :Tabularize /,<CR>
 vmap <Leader>a,, :Tabularize /,\zs<CR>
 
 "fzf
-nmap <C-p> :GFiles<CR>
-nmap <C-l> :Files<CR>
+map <C-p> :GFiles<CR>
+map <C-l> :Files<CR>
+nnoremap <C-T> :Tags<CR>
 
 " tagbar
 nmap <Leader>tb :Tagbar <CR>
