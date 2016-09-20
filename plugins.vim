@@ -50,42 +50,6 @@ endif
 nmap <silent><Leader>b :EasyBufferHorizontal<CR>
 let g:easybuffer_horizontal_height = '15'
 
-" ctrlp
-"let g:ctrlp_cache_dir = $HOME.'/.vim/.ctrlp_cache'
-"let g:ctrlp_working_path_mode = 'ra'
-"let g:ctrlp_extensions = ['funky']
-
-"nmap <silent>cp :CtrlPMixed<CR>
-"nmap <silent>cm :CtrlPMRUFiles<CR>
-"nmap <silent>cf :CtrlPFunky<CR>
-"nmap <silent>cl :CtrlPLine<CR>
-"nmap <silent>cb :CtrlPBuffer<CR>
-"nmap <silent>ct :CtrlPBufTag<CR>
-"nmap <silent>cT :CtrlPTag<CR>
-
-"let g:ctrlp_custom_ignore = {
-      "\ 'dir': '\.git$\|\.hg$\|\.svn$',
-      "\ 'file': '\.exe$\|\.so$\|\.dll$\|\.pyc$' }
-
-" On Windows use "dir" as fallback command.
-"if WINDOWS()
-  "let s:ctrlp_fallback = 'dir %s /-n /b /s /a-d'
-"elseif executable('ag')
-  "let s:ctrlp_fallback = 'ag %s --nocolor -l -g ""'
-"elseif executable('ack')
-  "let s:ctrlp_fallback = 'ack %s --nocolor -f'
-"else
-  "let s:ctrlp_fallback = 'find %s -type f'
-"endif
-
-"let g:ctrlp_user_command = {
-      "\ 'types': {
-      "\ 1: ['.git', 'cd %s && git ls-files . --cached --exclude-standard --others'],
-      "\ 2: ['.hg', 'hg --cwd %s locate -i .'],
-      "\ },
-      "\ 'fallback': s:ctrlp_fallback
-      "\ }
-
 " easymotion
 let g:EasyMotion_leader_key = 'e'
 hi link EasyMotionTarget ErrorMsg
@@ -157,18 +121,6 @@ let g:signify_sign_change = '!'
 let g:signify_sign_delete = '-'
 let g:signify_sign_delete_first_line = '-'
 
-" syntastic
-"let g:syntastic_enable_balloons = 1
-"let g:syntastic_auto_jump=0
-"let g:syntastic_always_populate_loc_list=1
-"let g:syntastic_check_on_wq=0
-"let g:syntastic_check_on_open=1
-"let g:syntastic_auto_loc_list=1
-"let g:syntastic_loc_list_height=5
-"let g:syntastic_enable_signs=1
-"let g:syntastic_error_symbol='✗'
-"let g:syntastic_warning_symbol='⚠'
-
 " tabularize
 vmap <Leader>a=  :Tabularize /=<CR>
 vmap <Leader>a#  :Tabularize /#<CR>
@@ -198,7 +150,6 @@ let g:UltiSnipsJumpBackwardTrigger = "<S-tab>"
 let g:UltiSnipsListSnippets="<C-Tab>"
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 " YouCompleteMe
-"let g:ycm_register_as_syntastic_checker = 1
 let g:ycm_key_list_select_completion = ['<C-j>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-k>', '<Up>']
 let g:ycm_use_ultisnips_completer = 1
@@ -224,6 +175,11 @@ autocmd FileType ruby setlocal omnifunc=rubycomplete#Complete
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 
 " Neomake configuration
-autocmd! BufWritePost, BufEnter * Neomake
+autocmd! BufWritePost,BufEnter * Neomake
 let g:neomake_open_list = 2
 let g:neomake_python_enable_makers = ['flake8']
+
+" Mimic :grep and make ag the default tool.
+let g:grepper = {
+            \ 'tools'      : ['ag', 'git', 'grep'],
+            \ }
