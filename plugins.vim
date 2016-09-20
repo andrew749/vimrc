@@ -175,7 +175,7 @@ autocmd FileType ruby setlocal omnifunc=rubycomplete#Complete
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 
 " Neomake configuration
-autocmd! BufWritePost,BufEnter * Neomake
+autocmd! BufWritePost * Neomake
 let g:neomake_open_list = 2
 let g:neomake_python_enable_makers = ['flake8']
 
