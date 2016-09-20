@@ -15,13 +15,12 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
-Plug 'tpope/vim-gr'
 Plug 'troydm/easybuffer.vim'
 Plug 'yonchu/accelerated-smooth-scroll'
 Plug 'ervandew/supertab'
 "replace tools
 if executable('ack')
-  Bundle 'mileszs/ack.vim'
+  Plug 'mileszs/ack.vim'
 endif
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-easytags'
@@ -64,7 +63,7 @@ if (has('nvim'))
     Plug 'junegunn/fzf.vim'
 endif
 
-Plug 'vim-bufpaste'
+Plug 'andrew749/vim-bufpaste'
 Plug 'majutsushi/tagbar'
 
 " automatically load filetype plugins

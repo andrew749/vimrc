@@ -16,7 +16,6 @@ let g:bufferline_echo = 0
 let g:airline#extensions#bufferline#enabled = 1
 let g:airline#extensions#hunks#enabled = 1
 let g:airline_powerline_fonts = 1
-let g:airline#extensions#ctrlp#show_adjacent_modes = 1
 let g:airline#extensions#whitespace#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='base16'
@@ -159,11 +158,6 @@ if GUI()
 else
   let g:ycm_key_invoke_completion = '<C-@>'
 endif
-
-" For snippet_complete marker.
-"if has('conceal')
-  "set conceallevel=2 concealcursor=nc
-"endif
 
 " Enable omni completion.
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
