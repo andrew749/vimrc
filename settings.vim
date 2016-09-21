@@ -15,6 +15,7 @@ set vb t_vb=     " disable any beeps or flashes on error
 
 " Use the '*' register as well as the the '+' register if it's available too
 set clipboard=unnamed
+set clipboard+=unnamedplus
 if has('unnamedplus')|set clipboard+=unnamedplus|endif
 
 " Configure to primarily use utf8
