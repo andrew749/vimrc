@@ -179,3 +179,4 @@ let g:neomake_python_enable_makers = ['flake8']
 let g:grepper = {
             \ 'tools'      : ['ag', 'git', 'grep'],
             \ }
+map <Leader>/ :Grepper<CR>
