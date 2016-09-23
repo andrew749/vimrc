@@ -1,5 +1,26 @@
-" SETTINGS " General set title                          " change the terminal's title set history=1000                   " keep 100 lines of command line history set autochdir                      " Change directory to the current buffer when opening files. set autoread                       " Set to auto read when a file is changed from the outside set autowrite                      " Auto save before commands like next and make set backspace=2                    " make backspace work normal set diffopt=foldcolumn:0,filler    " Add vertical spaces to keep right and left aligned set diffopt+=iwhite                " Ignore whitespace changes (focus on code changes) set esckeys                        " Allow cursor keys in insert mode. set gdefault                       " regex /g by default set hid                            " you can change buffers without saving set nostartofline                  " don't jump to first character when paging set printoptions=paper:a4,syntax:n " controls the default paper size and the printing of syntax highlighting (:n -> none) set report=0                       " tell us when anything is changed via :...0 set switchbuf=useopen              " reveal already opened files from the quickfix window instead of opening new buffers set ttyfast                        " smoother changes set viminfo='20,\"80               " read/write a .viminfo file, don't store more set virtualedit=onemore            " Allow for cursor beyond last character " set shortmess+=filmnrxoOtT         " Abbrev. of messages (avoids 'hit enter') set cursorline set viewoptions=folds,options,cursor,unix,slash " Better Unix / Windows compatibility
-" vertical/horizontal scroll off settings
+" SETTINGS " General
+ set title                          " change the terminal's title
+ set history=1000                   " keep 100 lines of command line history
+ set autochdir                      " Change directory to the current buffer when opening files.
+ set autoread                       " Set to auto read when a file is changed from the outside
+ set autowrite                      " Auto save before commands like next and make
+ set backspace=2                    " make backspace work normal
+ set diffopt=foldcolumn:0,filler    " Add vertical spaces to keep right and left aligned
+ set diffopt+=iwhite                " Ignore whitespace changes (focus on code changes)
+ set esckeys                        " Allow cursor keys in insert mode.
+ set gdefault                       " regex /g by default
+ set hid                            " you can change buffers without saving
+ set nostartofline                  " don't jump to first character when paging
+ set printoptions=paper:a4,syntax:n " controls the default paper size and the printing of syntax highlighting (:n -> none)
+ set report=0                       " tell us when anything is changed via :...0
+ set switchbuf=useopen              " reveal already opened files from the quickfix window instead of opening new buffers
+ set ttyfast                        " smoother changes
+ set viminfo='20,\"80               " read/write a .viminfo file, don't store more
+ set virtualedit=onemore            " Allow for cursor beyond last character "
+ set shortmess+=filmnrxoOtT         " Abbrev. of messages (avoids 'hit enter')
+ set cursorline
+ set viewoptions=folds,options,cursor,unix,slash " Better Unix / Windows compatibility
+ "vertical/horizontal scroll off settings
 if !&scrolloff
   set scrolloff=1
 endif
