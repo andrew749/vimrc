@@ -97,6 +97,7 @@ set showbreak=↪
 if &t_Co > 2 || GUI()
   syntax enable
 endif
+
 " default colorscheme
 set background=dark
 if GUI()
@@ -110,6 +111,7 @@ if GUI()
   hi Comment ctermfg=bg ctermbg=240
   hi Comment guifg=#585858 guibg=bg
 elseif &t_Co >= 256
+  "colorscheme badwolf
   colorscheme gruvbox
   hi Comment ctermfg=bg ctermbg=240
   hi Comment guifg=#585858 guibg=bg
@@ -206,5 +208,3 @@ set sessionoptions=buffers,curdir,folds,tabpages,winsize
 let s:sessiondir  = expand("~/.vim/sessions", 1)
 let s:sessionfile = expand(s:sessiondir . "/session.vim", 1)
 let s:sessionlock = expand(s:sessiondir . "/session.lock", 1)
-set t_Co=256
-

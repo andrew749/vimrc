@@ -1,21 +1,12 @@
 " FUNCTIONS
+set spelllang=en_us
 function! ToggleSpell()
-  if &spell
-    if &spelllang == "pt"
-      set spelllang=pt,en
-      echo "toggle spell" &spelllang
-    elseif &spelllang == "pt,en"
-      set spelllang=en
-      echo "toggle spell" &spelllang
-    else
-      set spell!
-      echo "toggle spell off"
-    endif
-  else
-    set spelllang=pt
     set spell!
-    echo "toggle spell" &spelllang
-  endif
+    if &spell
+        echo "toggle spell" &spelllang
+    else
+        echo "toggle spell off"
+    endif
 endfunction
 " Toggle spell check
 nmap <silent>ts :call ToggleSpell()<CR>
