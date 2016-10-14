@@ -27,7 +27,7 @@ endif
 if !&sidescrolloff
   set sidescrolloff=5
 endif
-set ttimeoutlen=25
+set ttimeoutlen=0
 
 " No bell or flash wanted
 set novisualbell " No blinking
@@ -70,7 +70,6 @@ set linespace=0          " space it out a little more (easier to read)
 set number               " turn on line numbers
 set showmode             " If in Insert, Replace or Visual mode put a message on the last line.
 set ttimeout
-set ttimeoutlen=100
 
 " wildmode
 set complete-=i
