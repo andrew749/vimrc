@@ -66,7 +66,7 @@ endif
 
 Plug 'andrew749/vim-bufpaste'
 Plug 'majutsushi/tagbar'
-
+Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 " automatically load filetype plugins
 filetype plugin indent on
 

@@ -1,7 +1,7 @@
 " SETTINGS " General
  set title                          " change the terminal's title
  set history=1000                   " keep 100 lines of command line history
- set autochdir                      " Change directory to the current buffer when opening files.
+ "set autochdir                      Change directory to the current buffer when opening files.
  set autoread                       " Set to auto read when a file is changed from the outside
  set autowrite                      " Auto save before commands like next and make
  set backspace=2                    " make backspace work normal
@@ -36,7 +36,6 @@ set vb t_vb=     " disable any beeps or flashes on error
 
 " Use the '*' register as well as the the '+' register if it's available too
 set clipboard=unnamed
-set clipboard+=unnamedplus
 if has('unnamedplus')|set clipboard+=unnamedplus|endif
 
 " Configure to primarily use utf8
