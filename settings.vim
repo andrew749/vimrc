@@ -206,3 +206,7 @@ set sessionoptions=buffers,curdir,folds,tabpages,winsize
 let s:sessiondir  = expand("~/.vim/sessions", 1)
 let s:sessionfile = expand(s:sessiondir . "/session.vim", 1)
 let s:sessionlock = expand(s:sessiondir . "/session.lock", 1)
+
+" automake latex
+
+autocmd BufWritePre *.tex silent :make

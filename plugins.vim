@@ -18,6 +18,7 @@ let g:airline#extensions#hunks#enabled = 1
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#whitespace#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tagbar#enabled = 0
 let g:airline_theme='base16'
 set guifont=Liberation\ Mono\ for\ Powerline\ 12
 if GUI()
@@ -130,6 +131,7 @@ vmap <Leader>a:  :Tabularize /:<CR>
 vmap <Leader>a:: :Tabularize /:\zs<CR>
 vmap <Leader>a,  :Tabularize /,<CR>
 vmap <Leader>a,, :Tabularize /,\zs<CR>
+vmap <Leader>a\| :Tabularize /\|<CR>
 
 "fzf
 map <C-p> :GFiles<CR>
@@ -154,6 +156,7 @@ let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 let g:ycm_key_list_select_completion = ['<C-j>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-k>', '<Up>']
 let g:ycm_use_ultisnips_completer = 1
+let g:ycm_path_to_python_interpreter = '/usr/local/bin/python2'
 let g:SuperTabDefaultCompletionType = '<C-c>'
 if GUI()
   let g:ycm_key_invoke_completion = '<C-Space>'
