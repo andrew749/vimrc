@@ -6,7 +6,7 @@
  set autowrite                      " Auto save before commands like next and make
  set backspace=2                    " make backspace work normal
  set diffopt=foldcolumn:0,filler    " Add vertical spaces to keep right and left aligned
- set diffopt+=iwhite                " Ignore whitespace changes (focus on code changes)
+ "set diffopt+=iwhite                " Ignore whitespace changes (focus on code changes)
  set esckeys                        " Allow cursor keys in insert mode.
  set gdefault                       " regex /g by default
  set hid                            " you can change buffers without saving
@@ -101,7 +101,8 @@ set background=dark
 if GUI()
   set t_Co=256
   "colorscheme badwolf
-  colorscheme gruvbox
+  "colorscheme gruvbox
+  colorscheme solarized
   let base16colorspace=256  " Access colors present in 256 colorspace
   "colorscheme base16-monokai
   "colorscheme base16-eighties
@@ -110,7 +111,9 @@ if GUI()
   hi Comment guifg=#585858 guibg=bg
 elseif &t_Co >= 256
   "colorscheme badwolf
-  colorscheme gruvbox
+  "colorscheme gruvbox
+    let g:solarized_termcolors=256
+  colorscheme solarized
   hi Comment ctermfg=bg ctermbg=240
   hi Comment guifg=#585858 guibg=bg
 else
