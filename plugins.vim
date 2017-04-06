@@ -1,12 +1,5 @@
 " PLUGINS CONFIG
-" calendar
-nmap <Leader>ca :Calendar<CR>
-let g:calendar_list = [
-      \   {'name': 'Tasks', 'path': $HOME.'/.vim/.tasks', 'ext': 'task'},
-      \   {'name': 'Diary', 'path': $HOME.'/.vim/.diary', 'ext': 'diary'},
-      \ ]
-let g:calendar_current_idx = 1
-
+"
 " airline
 let g:airline#extensions#enable#branch=1
 let g:airline_detect_modified=1
@@ -183,3 +176,4 @@ let g:grepper = {
             \ 'tools'      : ['ag', 'git', 'grep'],
             \ }
 map <Leader>/ :Grepper<CR>
+

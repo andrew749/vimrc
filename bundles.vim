@@ -2,7 +2,6 @@ call plug#begin('~/.vim/plugged')
 " PLUGINS BUNDLE
 
 " GENERAL
-Plug 'hotoo/calendar-vim'
 Plug 'Lokaltog/vim-easymotion'
 Plug 'Stormherz/tablify'
 Plug 'bling/vim-airline'
@@ -25,6 +24,7 @@ if executable('ack')
 endif
 Plug 'xolox/vim-misc'
 Plug 'xolox/vim-easytags'
+
 " DEVELOPER
 Plug 'Valloric/YouCompleteMe'
 "Plug 'SirVer/ultisnips'
@@ -36,10 +36,11 @@ Plug 'scrooloose/nerdtree'
 Plug 'Yggdroot/indentLine'
 Plug 'gcmt/wildfire.vim'
 Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
 Plug 'scrooloose/nerdcommenter'
 Plug 'rizzatti/dash.vim'
 Plug 'mhinz/vim-signify'
-Plug 'plasticboy/vim-markdown'
+
 " LANGUAGES
 Plug 'sheerun/vim-polyglot'
 Plug 'othree/html5.vim'
@@ -49,6 +50,7 @@ Plug 'ap/vim-css-color'
 Plug 'davidhalter/jedi-vim'
 Plug 'tpope/vim-rails'
 Plug 'vim-ruby/vim-ruby'
+
 " COLORSCHEME
 Plug 'morhetz/gruvbox'
 Plug 'altercation/vim-colors-solarized'
@@ -67,6 +69,7 @@ endif
 Plug 'andrew749/vim-bufpaste'
 Plug 'majutsushi/tagbar'
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
+
 " automatically load filetype plugins
 filetype plugin indent on
 
