@@ -5,7 +5,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'Lokaltog/vim-easymotion'
 Plug 'Stormherz/tablify'
 Plug 'bling/vim-airline'
-Plug 'chrisbra/NrrwRgn'
 Plug 'kris89/vim-multiple-cursors'
 Plug 'mbbill/undotree'
 Plug 'mhinz/vim-startify'
