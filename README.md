@@ -1,4 +1,4 @@
-# Installation
+# Vimrc
 
 ## Prerequisites
 - Git
@@ -10,8 +10,25 @@
 ### Mac:
 
 - [Homebrew][homebrew] - `ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"`
-- [MacVim][macvim] - `brew install macvim`
+- [NeoVim][macvim] - `brew install nvim`
 - [ctags][ctags] - `brew install ctags-exuberant`
+
+## Installation
+
+### Setup vim
+```
+# install plug.vim
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+mkdir -p ~/.config/nvim
+ln -s ~/.vimrc ~/.config/nvim/init.vim
+```
+
+### Install plugins
+```
+ESC :PlugInstall
+```
 
 # Vim
 
