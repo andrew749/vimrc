@@ -44,7 +44,6 @@ nmap <silent><Leader>b :EasyBufferHorizontal<CR>
 let g:easybuffer_horizontal_height = '15'
 
 " easymotion
-let g:EasyMotion_leader_key = 'e'
 hi link EasyMotionTarget ErrorMsg
 hi link EasyMotionShade  Comment
 
