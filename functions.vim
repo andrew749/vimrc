@@ -11,23 +11,6 @@ endfunction
 " Toggle spell check
 nmap <silent>ts :call ToggleSpell()<CR>
 
-" Convert variable case
-function! TwistCase(str)
-  if a:str =~# '^[a-z0-9_]\+[!?]\?$'
-    let result = substitute(a:str, '_', '-', 'g')
-  elseif a:str =~# '^[a-z0-9?!-]\+[!?]\?$'
-    let result = substitute(a:str, '\C-\([^-]\)', '\u\1', 'g')
-  elseif a:str =~# '^[a-z0-9]\+\([A-Z][a-z0-9]*\)\+[!?]\?$'
-    let result = toupper(a:str[0]) . strpart(a:str, 1)
-  elseif a:str =~# '^\([A-Z][a-z0-9]*\)\{2,}[!?]\?$'
-    let result = strpart(substitute(a:str, '\C\([A-Z]\)', '_\l\1', 'g'), 1)
-  else
-    let result = toupper(a:str)
-  endif
-  return result
-endfunction
-vmap ^ ygv"=TwistCase(@")<CR>Pgv
-
 function! LastModified()
   if &modified
     let save_cursor = getpos(".")
