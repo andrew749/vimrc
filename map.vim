@@ -101,11 +101,6 @@ inoremap <A-k> <Esc>:m .-2<CR>==gi
 vnoremap <A-j> :m '>+1<CR>gv=gv
 vnoremap <A-k> :m '<-2<CR>gv=gv
 
-nnoremap <silent> 1 :only<CR>
-nnoremap <silent> 2 :only<CR> <C-w>v
-nnoremap <silent> 3 :only<CR> <C-w>v<C-w>s
-nnoremap <silent> 4 :only<CR> <C-w>v<C-w>s<C-w>h<C-w>s
-
 " search and replace the word under the cursor
 nnoremap <C-h> :%s/\<<C-r><C-w>\>/
 
@@ -125,6 +120,7 @@ nmap <silent> <leader>ul :t.<CR>Vr-
 " find merge conflict markers
 nmap <silent> <leader>fc <ESC>/\v^[<=>]{7}( .*\|$)<CR>
 
+" merge conflict resolution
 nmap :dr :diffg RE
 nmap :dl :diffg LO
 nmap :db :diffg BA
