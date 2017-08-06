@@ -1,7 +1,7 @@
 " AUTOCOMMANDS
 if has("autocmd")
   augroup filetypedetect
-    au BufEnter *.markdown,*.mkd,*.md setl wrap tw=79
+    au BufEnter *.markdown,*.mkd,*.md setl wrap "tw=79
     au BufEnter *.json setl ft=javascript
     au BufEnter *.coffee setl sw=2 expandtab
     au BufEnter *.py setl ts=4 sw=4 sts=4
