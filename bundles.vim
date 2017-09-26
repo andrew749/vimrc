@@ -2,6 +2,8 @@ call plug#begin('~/.vim/plugged')
 " PLUGINS BUNDLE
 
 " GENERAL
+Plug 'iamcco/mathjax-support-for-mkdp'
+Plug 'iamcco/markdown-preview.vim'
 Plug 'Lokaltog/vim-easymotion'
 Plug 'Stormherz/tablify'
 Plug 'bling/vim-airline'
@@ -25,8 +27,10 @@ Plug 'xolox/vim-misc'
 Plug 'xolox/vim-easytags'
 
 " DEVELOPER
-Plug 'Valloric/YouCompleteMe'
-"Plug 'SirVer/ultisnips'
+Plug 'SirVer/ultisnips'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'zchee/deoplete-jedi'
+Plug 'zchee/deoplete-clang'
 Plug 'honza/vim-snippets'
 Plug 'Chiel92/vim-autoformat'
 Plug 'Raimondi/delimitMate'

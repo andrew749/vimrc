@@ -143,18 +143,20 @@ let g:UltiSnipsExpandTrigger = "<Tab>"
 let g:UltiSnipsJumpForwardTrigger = "<Tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<S-tab>"
 let g:UltiSnipsListSnippets="<C-Tab>"
-let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
-" YouCompleteMe
-let g:ycm_key_list_select_completion = ['<C-j>', '<Down>']
-let g:ycm_key_list_previous_completion = ['<C-k>', '<Up>']
-let g:ycm_use_ultisnips_completer = 1
-let g:ycm_path_to_python_interpreter = '/usr/local/bin/python2'
+"" YouCompleteMe
+"let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+"let g:ycm_key_list_select_completion = ['<C-j>', '<Down>']
+"let g:ycm_key_list_previous_completion = ['<C-k>', '<Up>']
+"let g:ycm_use_ultisnips_completer = 1
+"let g:ycm_path_to_python_interpreter = '/usr/local/bin/python2'
+"if GUI()
+  "let g:ycm_key_invoke_completion = '<C-Space>'
+"else
+  "let g:ycm_key_invoke_completion = '<C-@>'
+"endif
+"Deoplete
+let g:deoplete#enable_at_startup = 1
 let g:SuperTabDefaultCompletionType = '<C-c>'
-if GUI()
-  let g:ycm_key_invoke_completion = '<C-Space>'
-else
-  let g:ycm_key_invoke_completion = '<C-@>'
-endif
 
 " Enable omni completion.
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
@@ -176,3 +178,6 @@ let g:grepper = {
             \ }
 map <Leader>/ :Grepper<CR>
 
+" Markdown preview
+let g:mkdp_path_to_chrome = "open -a \"Google Chrome\""
+let g:mkdp_refresh_slow = 1
