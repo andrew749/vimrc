@@ -97,24 +97,29 @@ if &t_Co > 2 || GUI()
 endif
 
 " default colorscheme
-set background=dark
 if GUI()
   set t_Co=256
-  colorscheme solarized
+  colorscheme badwolf
   let base16colorspace=256  " Access colors present in 256 colorspace
   " color fixes
   hi Comment ctermfg=bg ctermbg=240
   hi Comment guifg=#585858 guibg=bg
 elseif &t_Co >= 256
-    let g:solarized_termcolors=256
-  colorscheme solarized
+  colorscheme PaperColor
+  set background=dark
+  "colorscheme badwolf
+  "set background=light
   hi Comment ctermfg=bg ctermbg=240
   hi Comment guifg=#585858 guibg=bg
 else
-  colorscheme gruvbox
+  colorscheme ron
   set t_Co=8
   set t_Sf=^[[3%p1%dm
   set t_Sb=^[[4%p1%dm
+endif
+if &diff
+    colorscheme PaperColor
+    set background=dark
 endif
 
 " GUI options
