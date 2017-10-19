@@ -1,44 +1,5 @@
 " PLUGINS CONFIG
 "
-" airline
-let g:airline#extensions#enable#branch=1
-let g:airline_detect_modified=1
-let g:airline_detect_paste=1
-let g:airline_inactive_collapse=1
-let g:bufferline_echo = 0
-let g:airline#extensions#bufferline#enabled = 1
-let g:airline#extensions#hunks#enabled = 1
-let g:airline_powerline_fonts = 1
-let g:airline#extensions#whitespace#enabled = 1
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tagbar#enabled = 0
-let g:airline_theme='base16'
-set guifont=Liberation\ Mono\ for\ Powerline\ 12
-if GUI()
-  if !exists('g:airline_symbols')
-    let g:airline_symbols = {}
-  endif
-  "unicode symbols
-  let g:airline_left_sep = '»'
-  let g:airline_left_sep = '▶'
-  let g:airline_right_sep = '«'
-  let g:airline_right_sep = '◀'
-  let g:airline_symbols.linenr = '␊'
-  let g:airline_symbols.linenr = '␤'
-  let g:airline_symbols.linenr = '¶'
-  let g:airline_symbols.paste = 'ρ'
-  let g:airline_symbols.branch = '⎇'
-  let g:airline_symbols.paste = 'Þ'
-  let g:airline_symbols.paste = '∥'
-  let g:airline_symbols.whitespace = 'Ξ'
-  if !exists('g:airline_powerline_fonts')
-    "let g:airline_left_sep = ''
-    "let g:airline_right_sep = ''
-    let g:airline_symbols.branch = ''
-    let g:airline_symbols.linenr = ''
-  endif
-endif
-
 " buffergator
 nmap <silent><Leader>b :EasyBufferHorizontal<CR>
 let g:easybuffer_horizontal_height = '15'
@@ -143,19 +104,10 @@ let g:UltiSnipsExpandTrigger = "<Tab>"
 let g:UltiSnipsJumpForwardTrigger = "<Tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<S-tab>"
 let g:UltiSnipsListSnippets="<C-Tab>"
-"" YouCompleteMe
-"let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
-"let g:ycm_key_list_select_completion = ['<C-j>', '<Down>']
-"let g:ycm_key_list_previous_completion = ['<C-k>', '<Up>']
-"let g:ycm_use_ultisnips_completer = 1
-"let g:ycm_path_to_python_interpreter = '/usr/local/bin/python2'
-"if GUI()
-  "let g:ycm_key_invoke_completion = '<C-Space>'
-"else
-  "let g:ycm_key_invoke_completion = '<C-@>'
-"endif
+
 "Deoplete
 let g:deoplete#enable_at_startup = 1
+let g:deoplete#sources#clang#libclang_path="/usr/local/Cellar/llvm/5.0.0/lib/libclang.dylib"
 let g:SuperTabDefaultCompletionType = '<C-c>'
 
 " Enable omni completion.
@@ -176,6 +128,7 @@ let g:neomake_python_enable_makers = ['flake8']
 let g:grepper = {
             \ 'tools'      : ['ag', 'git', 'grep'],
             \ }
+
 map <Leader>/ :Grepper<CR>
 
 " Markdown preview
