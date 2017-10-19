@@ -99,24 +99,18 @@ endif
 " default colorscheme
 if GUI()
   set t_Co=256
-  colorscheme badwolf
+  colorscheme molokai
   let base16colorspace=256  " Access colors present in 256 colorspace
-  " color fixes
-  hi Comment ctermfg=bg ctermbg=240
-  hi Comment guifg=#585858 guibg=bg
 elseif &t_Co >= 256
-  colorscheme PaperColor
-  set background=dark
-  "colorscheme badwolf
-  "set background=light
-  hi Comment ctermfg=bg ctermbg=240
-  hi Comment guifg=#585858 guibg=bg
+  set t_ut=
+  colorscheme molokai
 else
   colorscheme ron
   set t_Co=8
   set t_Sf=^[[3%p1%dm
   set t_Sb=^[[4%p1%dm
 endif
+
 if &diff
     colorscheme PaperColor
     set background=dark
@@ -194,6 +188,7 @@ set matchtime=2     " How many tenths of a second to blink
 set showmatch       " jump to matches during entering the pattern
 set smartcase       " No ignorecase if Uppercase chars in search
 nohlsearch          " avoid highlighting when reloading vimrc
+
 
 " Folding
 set foldenable            " enable folding
