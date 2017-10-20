@@ -134,3 +134,5 @@ map <Leader>/ :Grepper<CR>
 " Markdown preview
 let g:mkdp_path_to_chrome = "open -a \"Google Chrome\""
 let g:mkdp_refresh_slow = 1
+
+let g:deoplete#sources#go#gocode_binary="$GOPATH/bin/gocode"
