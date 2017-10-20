@@ -128,9 +128,3 @@ nmap :db :diffg BA
 " Easier window splitting
 nmap <leader>vs :vs<CR>
 nmap <leader>hs :sp<CR>
-
-" navigate with arrow keys
-nnoremap j gj
-nnoremap k gk
-nnoremap $ g$
-nnoremap 0 g0
