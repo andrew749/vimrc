@@ -137,8 +137,8 @@ endif
 " Language Settings
 " Highlight problematic whitespace (spaces before tabs)
 highlight SpellBad term=underline gui=undercurl guisp=Orange
-" highlight clear SignColumn " SignColumn should match background
-" highlight clear LineNr " Current line number row will have same background color in relative mode
+highlight clear SignColumn " SignColumn should match background
+highlight clear LineNr " Current line number row will have same background color in relative mode
 
 " Files, backups and undo
 " Turn backup off, since most stuff are in git anyway...
