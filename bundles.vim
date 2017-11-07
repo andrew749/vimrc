@@ -35,7 +35,6 @@ Plug 'zchee/deoplete-go', { 'do': 'make'}
 Plug 'honza/vim-snippets'
 Plug 'Chiel92/vim-autoformat'
 Plug 'Raimondi/delimitMate'
-Plug 'scrooloose/nerdtree'
 Plug 'Yggdroot/indentLine'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
@@ -55,7 +54,6 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'fatih/vim-go'
 
 " COLORSCHEME
-Plug 'altercation/vim-colors-solarized'
 Plug 'sjl/badwolf'
 Plug 'chriskempson/base16-vim'
 Plug 'NLKNguyen/papercolor-theme'
