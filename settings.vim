@@ -1,13 +1,12 @@
 " SETTINGS " General
  set title                          " change the terminal's title
- set history=1000                   " keep 100 lines of command line history
+ set history=1000                   " keep 1000 lines of command line history
  "set autochdir                      Change directory to the current buffer when opening files.
  set autoread                       " Set to auto read when a file is changed from the outside
  set autowrite                      " Auto save before commands like next and make
  set backspace=2                    " make backspace work normal
  set diffopt=foldcolumn:0,filler    " Add vertical spaces to keep right and left aligned
  "set diffopt+=iwhite                " Ignore whitespace changes (focus on code changes)
- set esckeys                        " Allow cursor keys in insert mode.
  set gdefault                       " regex /g by default
  set hid                            " you can change buffers without saving
  set nostartofline                  " don't jump to first character when paging
@@ -18,7 +17,8 @@
  set viminfo='20,\"80               " read/write a .viminfo file, don't store more
  set virtualedit=onemore            " Allow for cursor beyond last character "
  set shortmess+=filmnrxoOtT         " Abbrev. of messages (avoids 'hit enter')
- set cursorline
+ "toggling for now since this is making vim slow
+ "set cursorline
  set viewoptions=folds,options,cursor,unix,slash " Better Unix / Windows compatibility
  "vertical/horizontal scroll off settings
 if !&scrolloff
@@ -91,17 +91,10 @@ set listchars=tab:▸\ ,eol:¬,trail:⋅,extends:❯,precedes:❮
 set showbreak=↪
 
 " Appearance Settings
-" switch syntax highlighting on, when the terminal has colors
-if &t_Co > 2 || GUI()
-  syntax enable
-endif
+syntax enable
 
 " default colorscheme
-if GUI()
-  set t_Co=256
-  colorscheme molokai
-  let base16colorspace=256  " Access colors present in 256 colorspace
-elseif &t_Co >= 256
+if &t_Co >= 256
   set t_ut=
   colorscheme molokai
 else
@@ -114,24 +107,6 @@ endif
 if &diff
     colorscheme PaperColor
     set background=dark
-endif
-
-" GUI options
-if GUI()
-  set guicursor=a:blinkon0 " cursor-blinking off!!
-  set guioptions=ac
-  set guioptions+=p " enable pointer callbacks for X11 (required by some WMs)
-  set guioptions+=h " prevent the cursor jumping to the longest line while scrolling
-  set winaltkeys=no " don't select the menu when pressing the alt-keys
-  " Linux
-  if WINDOWS()
-    set gfn=DejaVu_Sans_Mono_for_Powerline:h10
-  elseif OSX()
-    set gfn=Menlo:h13
-  else
-    set gfn=Consolas\ 11
-  endif
-  nmap <F8> :if &go=~#'m'<Bar>set go-=m<Bar>else<Bar>set go+=m<Bar>endif<CR>
 endif
 
 " Language Settings
@@ -205,5 +180,4 @@ let s:sessionfile = expand(s:sessiondir . "/session.vim", 1)
 let s:sessionlock = expand(s:sessiondir . "/session.lock", 1)
 
 " automake latex
-
 autocmd BufWritePre *.tex silent :make

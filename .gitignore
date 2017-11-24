@@ -7,3 +7,4 @@ view/
 *.pyc
 *.tags
 plugged/
+.netrwhist
