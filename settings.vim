@@ -38,6 +38,9 @@ set vb t_vb=     " disable any beeps or flashes on error
 set clipboard=unnamed
 if has('unnamedplus')|set clipboard+=unnamedplus|endif
 
+"set the default netrw window size
+let g:netrw_winsize=30
+
 " Configure to primarily use utf8
 if has("multi_byte")
   if &termencoding == ""|let &termencoding = &encoding|endif
