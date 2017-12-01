@@ -55,7 +55,6 @@ Plug 'fatih/vim-go'
 
 " COLORSCHEME
 Plug 'sjl/badwolf'
-Plug 'chriskempson/base16-vim'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'tomasr/molokai'
 
