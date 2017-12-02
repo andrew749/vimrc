@@ -97,15 +97,9 @@ set showbreak=↪
 syntax enable
 
 " default colorscheme
-if &t_Co >= 256
-  set t_ut=
-  colorscheme molokai
-else
-  colorscheme ron
-  set t_Co=8
-  set t_Sf=^[[3%p1%dm
-  set t_Sb=^[[4%p1%dm
-endif
+set t_ut=
+colorscheme molokai
+set t_Co=8
 
 if &diff
     colorscheme PaperColor
@@ -184,3 +178,4 @@ let s:sessionlock = expand(s:sessiondir . "/session.lock", 1)
 
 " automake latex
 autocmd BufWritePre *.tex silent :make
+
