@@ -52,6 +52,7 @@ Plug 'davidhalter/jedi-vim'
 Plug 'tpope/vim-rails'
 Plug 'vim-ruby/vim-ruby'
 Plug 'fatih/vim-go'
+Plug 'integralist/vim-mypy'
 
 " COLORSCHEME
 Plug 'sjl/badwolf'
@@ -69,6 +70,7 @@ endif
 
 Plug 'andrew749/vim-bufpaste'
 Plug 'majutsushi/tagbar'
+Plug 'lvht/tagbar-markdown'
 
 " automatically load filetype plugins
 filetype plugin indent on
