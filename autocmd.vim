@@ -7,6 +7,8 @@ if has("autocmd")
     au BufEnter *.py setl ts=4 sw=4 sts=4
     au BufEnter *.php setl ts=4 sw=4 sts=4
     au BufEnter *.js setl ts=2 sw=2 sts=2
+    au BufEnter *.tsx setl ts=2 sw=2 sts=2
+    au BufEnter *.ts setl ts=2 sw=2 sts=2
     au BufEnter *.html setl ts=4 sw=4 sts=4
     au BufEnter *.tex setl wrap tw=79 fo=tcqor
     au BufEnter *.[ch] setl cindent
