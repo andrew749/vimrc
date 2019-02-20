@@ -1,9 +1,8 @@
 " AUTOCOMMANDS
 if has("autocmd")
   augroup filetypedetect
-    au BufEnter *.markdown,*.mkd,*.md setl wrap "tw=79
+    au BufEnter *.markdown,*.mkd,*.md setl wrap
     au BufEnter *.json setl ft=javascript
-    au BufEnter *.coffee setl sw=2 expandtab
     au BufEnter *.py setl ts=4 sw=4 sts=4
     au BufEnter *.php setl ts=4 sw=4 sts=4
     au BufEnter *.js setl ts=2 sw=2 sts=2
@@ -14,7 +13,6 @@ if has("autocmd")
     au BufEnter *.[ch] setl cindent
     au BufEnter *.[ch]pp setl cindent
     au BufEnter Makefile setl ts=4 sts=4 sw=4 noet list
-    au BufEnter *.sqx set filetype=cpp
   augroup END
 
   " when enabling diff for a buffer it should be disabled when the
@@ -26,25 +24,19 @@ if has("autocmd")
   au FileType gitcommit au! BufEnter COMMIT_EDITMSG call setpos('.', [0, 1, 1, 0])
 
   " Automatically removing all trailing whitespace
-  autocmd BufWritePre * :call StripTrailingWhitespace()
+  au BufWritePre * :call StripTrailingWhitespace()
 
   " Save on FocusLost
   au FocusLost * :silent! wall " Save on FocusLost
   au FocusLost * call feedkeys("\<C-\>\<C-n>") " Return to normal mode on FocustLost
 
   " Disable paste mode when leaving Insert Mode
+  " This deals with messed up pasting when using Ctrl-V cuz
+  " vim will use the same indentation level on newline
   au InsertLeave * set nopaste
 
   " Resize splits when the window is resized
   au VimResized * exe "normal! \<c-w>="
-
-  " preceding line best in a plugin but here for now.
-  au BufNewFile,BufRead *.coffee set filetype=coffee
-
-  " Workaround vim-commentary for Haskell
-  au FileType haskell setlocal commentstring=--\ %s
-  " Workaround broken colour highlighting in Haskell
-  au FileType haskell setlocal nospell
 
   " Stupid shift key fixes
   if has("user_commands")
