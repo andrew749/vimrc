@@ -8,6 +8,7 @@ function! ToggleSpell()
         echo "toggle spell off"
     endif
 endfunction
+
 " Toggle spell check
 nmap <silent>ts :call ToggleSpell()<CR>
 
